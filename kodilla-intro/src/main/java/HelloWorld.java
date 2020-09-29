@@ -3,6 +3,6 @@ public class HelloWorld {
         System.out.println("Hello World!");
         System.out.println("Sylwia");
         System.out.println(38);
-        System.out.println("Ł");
+        System.out.println("Ł");  //jak ustawic kodowanie???
     }
 }
