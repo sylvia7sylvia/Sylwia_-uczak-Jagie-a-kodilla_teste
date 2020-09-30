@@ -1,8 +1,12 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("Sylwia");
-        System.out.println(38);
-        System.out.println("Ł");  //jak ustawic kodowanie???
+        String hello = "Hello World!";
+        String myName = "Sylwia";
+        int myAge = 38;
+        char myLastNameInitial = 'Ł';
+        System.out.println(hello);
+        System.out.println(myName);
+        System.out.println(myAge);
+        System.out.println(myLastNameInitial);
     }
 }
