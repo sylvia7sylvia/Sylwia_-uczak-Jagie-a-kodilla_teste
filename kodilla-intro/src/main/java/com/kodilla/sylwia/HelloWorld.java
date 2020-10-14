@@ -1,3 +1,5 @@
+package com.kodilla.sylwia;
+
 public class HelloWorld {
     public static void main(String[] args) {
         String hello = "Hello World!";

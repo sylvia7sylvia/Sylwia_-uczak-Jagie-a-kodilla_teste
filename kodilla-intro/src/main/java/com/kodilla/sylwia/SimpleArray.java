@@ -1,3 +1,5 @@
+package com.kodilla.sylwia;
+
 public class SimpleArray {
     public static void main(String[] args) {
 
@@ -10,7 +12,7 @@ public class SimpleArray {
 
         int numberOfElements = elements.length;
 
-        String element = elements [2];
+        String element = elements[2];
         System.out.println(element);
         System.out.println("Moja tablica zawiera " + numberOfElements + " elementów");
     }

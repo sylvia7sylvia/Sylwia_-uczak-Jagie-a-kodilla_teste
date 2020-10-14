@@ -1,3 +1,5 @@
+package com.kodilla.module2;
+
 public class FirstClass {
     public static void main(String[] args) {
         Notebook notebook = new Notebook(600, 3000, 2020);
@@ -32,7 +34,7 @@ public class FirstClass {
         secondNotebook.checkYearAndPrice();
         System.out.println("   ");
 
-        //wywołujemy zmieną z wagą laptopa, która jest zawarta w innej klasie (klasa Notebook)
+        //wywołujemy zmieną z wagą laptopa, która jest zawarta w innej klasie (klasa com.kodilla.module2.Notebook)
 
         //można dla każdego notebooka zrobić pętle if/else tak jak poniżej
             /*if (oldNotebook.price < 900) {

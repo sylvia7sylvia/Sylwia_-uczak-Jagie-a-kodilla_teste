@@ -1,3 +1,5 @@
+package com.kodilla.sylwia;
+
 public class MainExtended {
     public static void main(String[] args) {
         String myName = "Sylwia Łuczak-Jagieła";

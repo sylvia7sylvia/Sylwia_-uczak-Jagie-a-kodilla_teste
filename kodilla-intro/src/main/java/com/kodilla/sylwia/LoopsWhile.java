@@ -1,19 +1,23 @@
+package com.kodilla.sylwia;
+
 import java.util.Random;
+
 public class LoopsWhile {
     public static void main(String[] args) {
-        int c = 0;
+        int c;
         c = getCountOfRandomNumber(10);
         System.out.println("Ile razy byłem w pętli while " + c);
     }
+
     public static int getCountOfRandomNumber(int max) {
         Random random = new Random();
         int result = 0;
         int sum = 0;
         while (sum < max) {
             int temp = random.nextInt(10);
-            System.out.println("Wylosowałem cyfrę " +temp);
+            System.out.println("Wylosowałem cyfrę " + temp);
             sum = sum + temp;
-            System.out.println("Cyfra "+temp+" Suma z poprzednią "+sum);
+            System.out.println("Cyfra " + temp + " Suma z poprzednią " + sum);
             result++;
         }
         return result;

@@ -1,3 +1,5 @@
+package com.kodilla.module2;
+
 public class Notebook {
     int weight;
     int price;
