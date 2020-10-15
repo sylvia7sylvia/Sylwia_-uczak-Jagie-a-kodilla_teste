@@ -10,7 +10,7 @@ public class FirstClass {
         notebook.checkYearAndPrice();
         System.out.println("   ");
 
-        Notebook heavyNotebook = new Notebook(2100, 1800, 2015 );
+        Notebook heavyNotebook = new Notebook(2100, 1800, 2015);
         System.out.println("Drugi laptop waży " + heavyNotebook.weight + " gram i kosztuje " + heavyNotebook.price + "zł");
         heavyNotebook.checkWeight();
         heavyNotebook.checkYear();
