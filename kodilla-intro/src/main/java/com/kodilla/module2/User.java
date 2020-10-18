@@ -3,12 +3,12 @@ package com.kodilla.module2;
 public class User {
     String usName;
     int usAge;
-    double usHight;
+    double usHeight;
 
-    public User(String usName, int usAge, double usHight) {
+    public User(String usName, int usAge, double usHeight) {
         this.usName = usName;
         this.usAge = usAge;
-        this.usHight = usHight;
+        this.usHeight = usHeight;
     }
 
     public static void main(String[] args) {
@@ -23,22 +23,22 @@ public class User {
         User[] users = {Sylwia, Dawid, Oktawia, Anna, Natalia, Karolina, Jan};
 
         int tempAge = 0;
-        double tempHight = 0;
+        double tempHeight = 0;
         for (int i = 0; i < users.length; i++) {
             tempAge = tempAge + users[i].usAge;
-            tempHight = tempHight + users[i].usHight;
+            tempHeight = tempHeight + users[i].usHeight;
         }
         int averageAge = tempAge / users.length;
-        double averageHight = tempHight / users.length;
+        double averageHeight = tempHeight / users.length;
         System.out.println("Srednia wieku uzytkowników to " + averageAge);
-        System.out.println("Sredni wzrost uzytkowników to " + averageHight);
+        System.out.println("Sredni wzrost uzytkowników to " + averageHeight);
 
         for (int i = 0; i < users.length; i++) {  //przed zmianą - zmiana tego zapisu na inną formę jest w 40 lini
             if (users[i].usAge <= averageAge)
                 System.out.println("Uzytkownicy, ktorych wiek jest ponizej sredniej to " + users[i].usName);
         }
         for (User user : users) {   //dlaczego inteliJ tak to zmienił????
-            if (user.usHight > averageHight)
+            if (user.usHeight > averageHeight)
                 System.out.println("Uzytkownicy, wzrost jest powyżej średniej " + user.usName);
         }
     }
