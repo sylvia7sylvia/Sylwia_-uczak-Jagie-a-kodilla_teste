@@ -5,6 +5,7 @@ public class Application {
     double age;
     double height;
 
+    //TODO: Pls move name, age and height to different class: eg. Person, and use Person in class Application
     public Application(String name, double age, double height) {
         this.name = name;
         this.age = age;
