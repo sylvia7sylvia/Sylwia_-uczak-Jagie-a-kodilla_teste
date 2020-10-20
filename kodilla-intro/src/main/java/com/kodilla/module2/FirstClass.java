@@ -3,7 +3,7 @@ package com.kodilla.module2;
 public class FirstClass {
     public static void main(String[] args) {
         Notebook notebook = new Notebook(600, 3000, 2020);
-        System.out.println("Pierwszy laptop waży " + notebook.weight + " gram i kosztuje " + notebook.price + "zł");
+        System.out.println("Pierwszy laptop wazy " + notebook.weight + " gram i kosztuje " + notebook.price + "zl");
         notebook.checkWeight();
         notebook.checkYear();
         notebook.checkPrice();
@@ -11,7 +11,7 @@ public class FirstClass {
         System.out.println("   ");
 
         Notebook heavyNotebook = new Notebook(2100, 1800, 2015);
-        System.out.println("Drugi laptop waży " + heavyNotebook.weight + " gram i kosztuje " + heavyNotebook.price + "zł");
+        System.out.println("Drugi laptop wazy " + heavyNotebook.weight + " gram i kosztuje " + heavyNotebook.price + "zl");
         heavyNotebook.checkWeight();
         heavyNotebook.checkYear();
         heavyNotebook.checkPrice();
@@ -19,7 +19,7 @@ public class FirstClass {
         System.out.println("   ");
 
         Notebook oldNotebook = new Notebook(1500, 500, 2000);
-        System.out.println("Trzeci laptop waży " + oldNotebook.weight + " gram i kosztuje " + oldNotebook.price + "zł");
+        System.out.println("Trzeci laptop wazy " + oldNotebook.weight + " gram i kosztuje " + oldNotebook.price + "zl");
         oldNotebook.checkWeight();
         oldNotebook.checkYear();
         oldNotebook.checkPrice();

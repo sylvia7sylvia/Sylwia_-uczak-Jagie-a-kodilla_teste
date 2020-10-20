@@ -19,7 +19,7 @@ public class Notebook {
             if (this.price > 600 && this.price < 2000) {
                 System.out.println("To jest dobra cena za laptop.");
             }
-            if (this.price > 2000) {
+            if (this.price >= 2000) {
                 System.out.println("Ten laptop jest za drogi.");
             }
         }
@@ -31,8 +31,7 @@ public class Notebook {
         } else {
             if ((this.weight > 1000) && (this.weight < 2000)) {
                 System.out.println("Ten laptop nie jest ani lekki, ani ciężki.");
-            }
-            if (this.weight > 2000) {
+            } else {
                 System.out.println("Ten laptop jest dość ciężki.");
             }
         }
@@ -44,7 +43,7 @@ public class Notebook {
         } else {
             if ((this.year > 2010) && (this.year < 2019))
                 System.out.println("To jeden z nowszych laptopów, ale nie najnowszy model.");
-            if (this.year > 2019) {
+            else {
                 System.out.println("To jest najnowszy model laptopa.");
             }
         }

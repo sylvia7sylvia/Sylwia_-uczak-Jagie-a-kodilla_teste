@@ -17,12 +17,12 @@ public class RandomNumbers {
         int minNum = 30;
 
         Random random = new Random();
-        int result = 0;
+        int count = 0;
         int sum = 0;
         while (sum < max) {
             int temp = random.nextInt(31);
-            sum = sum + temp;
-            result++;
+            sum += temp;
+            count++;
 
             if (temp < minNum) {
                 minNum = temp;
@@ -34,7 +34,7 @@ public class RandomNumbers {
         System.out.println("Największa wylosowana liczba to " + maxNum);
         System.out.println("Najmniejsza wylosowana liczba to " + minNum);
 
-        return result;
+        return count;
 
     }
 }

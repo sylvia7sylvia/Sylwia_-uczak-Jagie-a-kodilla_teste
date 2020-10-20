@@ -5,7 +5,7 @@ public class HelloWorld {
         String hello = "Hello World!";
         String myName = "Sylwia";
         int myAge = 38;
-        char myLastNameInitial = 'Ł';
+        char myLastNameInitial = 'L';
         System.out.println(hello);
         System.out.println(myName);
         System.out.println(myAge);
