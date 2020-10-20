@@ -1,9 +1,9 @@
 package com.kodilla.module2;
 
-import java.util.Scanner;  //importuje klasę Scanner
+import java.util.Scanner;  // importuje klasę Scanner
 
 public class Book {
-    //w klasie Book wywołujemy metodę main
+    // w klasie Book wywołujemy metodę main
     // zadeklarowane zmienne typu String (tekstowe), są prywatne żeby ich nie zmieniac
     private final String author;
     private final String title;
