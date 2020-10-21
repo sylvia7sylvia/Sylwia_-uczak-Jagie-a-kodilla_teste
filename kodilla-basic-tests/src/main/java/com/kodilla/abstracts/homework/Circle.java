@@ -2,21 +2,17 @@ package com.kodilla.abstracts.homework;
 
 public class Circle extends Shape {
     public double radius;
-    private static final double PI;
-    static {
-        PI = 3.1415927;
-    }
 
-    public Circle(double PI, double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 
     public double getArea() {
-        return PI * this.radius * this.radius;
+        return Math.PI * this.radius * this.radius;
     }
 
     public double getPerimeter() {
-         return  2 * PI * this.radius;
+         return  2 * Math.PI * this.radius;
     }
     public double getRadius() {
         return this.radius;

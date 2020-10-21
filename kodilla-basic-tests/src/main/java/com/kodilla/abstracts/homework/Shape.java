@@ -1,20 +1,20 @@
 package com.kodilla.abstracts.homework;
 
 public abstract class Shape {
-    private double Area;
-    private double Perimeter;
+    private double area;
+    private double perimeter;
 
     public Shape() {   //konstruktor
-        this.Area = 0;
-        this.Perimeter = 0;
+        this.area = 0;
+        this.perimeter = 0;
     }
 
     public double getArea() {
-        return Area;
+        return area;
     }
 
     public double getPerimeter() {
-        return Perimeter;
+        return perimeter;
     }
 
 }
