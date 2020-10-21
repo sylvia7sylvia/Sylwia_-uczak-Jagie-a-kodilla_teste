@@ -24,20 +24,20 @@ public class User {
 
         int tempAge = 0;
         double tempHeight = 0;
-        for (int i = 0; i < users.length; i++) {
-            tempAge = tempAge + users[i].usAge;
-            tempHeight = tempHeight + users[i].usHeight;
+        for (User value : users) {
+            tempAge += value.usAge;
+            tempHeight += value.usHeight;
         }
         int averageAge = tempAge / users.length;
         double averageHeight = tempHeight / users.length;
         System.out.println("Srednia wieku uzytkowników to " + averageAge);
         System.out.println("Sredni wzrost uzytkowników to " + averageHeight);
 
-        for (int i = 0; i < users.length; i++) {  //przed zmianą - zmiana tego zapisu na inną formę jest w 40 lini
-            if (users[i].usAge <= averageAge)
-                System.out.println("Uzytkownicy, ktorych wiek jest ponizej sredniej to " + users[i].usName);
+        for (User value : users) {
+            if (value.usAge <= averageAge)
+                System.out.println("Uzytkownicy, ktorych wiek jest ponizej sredniej to " + value.usName);
         }
-        for (User user : users) {   //dlaczego inteliJ tak to zmienił????
+        for (User user : users) {
             if (user.usHeight > averageHeight)
                 System.out.println("Uzytkownicy, wzrost jest powyżej średniej " + user.usName);
         }

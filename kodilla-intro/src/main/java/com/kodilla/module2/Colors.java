@@ -16,9 +16,9 @@ public class Colors {
 
     public static void main(String[] args) {
         try {
-            ColorsName Colors = ColorsName.valueOf(getFirstLetterOfColor());
+            var colors = ColorsName.valueOf(getFirstLetterOfColor());
 
-            switch (Colors) {
+            switch (colors) {
                 case B -> System.out.println("biały");
                 case C -> System.out.println("czerwony");
                 case F -> System.out.println("fioletowy");
@@ -27,9 +27,8 @@ public class Colors {
                 case P -> System.out.println("purpura");
                 case R -> System.out.println("różowy");
                 case Z -> System.out.println("zielony");
-                default -> System.out.println("Żaden kolor nie zaczyna się na ta literkę.");
             }
-        } catch (Exception e) {
+        } catch (IllegalArgumentException e) {
             System.out.println("Żaden kolor nie zaczyna się na ta literkę."); //wyjątek - złapanie wyjątku
         }
     }
