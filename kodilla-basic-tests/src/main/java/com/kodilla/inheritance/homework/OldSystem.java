@@ -6,7 +6,7 @@ public class OldSystem extends OperatingSystem {
         super(1993);
         System.out.println("Old System");
     }
-
+/*TODO NOT NEEDED
     public void turnOn() {
         System.out.println("System ON...");
     }
@@ -17,6 +17,6 @@ public class OldSystem extends OperatingSystem {
 
     public void displayYear() {
         System.out.println("System was product in " + getYear() + " year");
-    }
+    }*/
 }
 
