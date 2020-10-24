@@ -7,17 +7,4 @@ public class NewSystem extends OperatingSystem {
         System.out.println("New System");
     }
 
-    /*TODO NOT NEEDED
-    public void turnOn() {
-
-        System.out.println("System ON...");
-    }
-
-    public void turnOff() {
-        System.out.println("System OFF");
-    }
-
-    public void displayYear() {
-        System.out.println("System was product in " + getYear() + " year");
-    }*/
 }

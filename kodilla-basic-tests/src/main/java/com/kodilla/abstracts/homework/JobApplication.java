@@ -7,6 +7,7 @@ public class JobApplication {
         System.out.println(person.getFirstName() + " pracuje jako " + person.getJob().getClass().getSimpleName());
         System.out.println(person.getFirstName() + " ma " + person.getAge() + " lat");
         System.out.println(person.getFirstName() + " zarabia " +person.getJob().getSalary());
+        System.out.println("Jej odpowiedzialność w pracy jest " +person.getJob().getResponsibilities());
 
     }
 

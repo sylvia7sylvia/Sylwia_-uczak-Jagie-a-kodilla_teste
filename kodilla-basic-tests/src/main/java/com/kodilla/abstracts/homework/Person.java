@@ -23,7 +23,7 @@ public class Person {
         return job;
     }
 
-//    public void printResponsibilities() {
-//        System.out.println(this.job.getResponsibilities());
-//    }
+    public void printResponsibilities() {
+        System.out.println(this.job.getResponsibilities());
+    }
 }

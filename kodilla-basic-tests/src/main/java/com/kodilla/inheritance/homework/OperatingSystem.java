@@ -3,7 +3,7 @@ package com.kodilla.inheritance.homework;
 public class OperatingSystem {
     private final int year;
 
-    public OperatingSystem(int year) {     //konstruktor
+    public OperatingSystem(int year) {
         this.year = year;
 
     }

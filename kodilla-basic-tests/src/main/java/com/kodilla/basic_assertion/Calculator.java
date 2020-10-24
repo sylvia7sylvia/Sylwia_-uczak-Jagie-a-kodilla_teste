@@ -10,7 +10,7 @@ public class Calculator {
         return a - b;
     }
 
-    public int exp(int a) {
+    public int exp(int a) {    //potęgowanie
         return a * a;
     }
 }

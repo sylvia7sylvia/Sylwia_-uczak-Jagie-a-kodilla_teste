@@ -22,7 +22,7 @@ public class Application {
         } else {
             System.out.println("Metoda sub nie działa poprawnie dla liczb " + a + " i " + b);
         }
-        int expResult = calculator.exp(a);
+        int expResult = calculator.exp(a);   //test do potęgowania
         System.out.println("Podniesienie do kwadratu liczby " +a+ " daje wynik " +expResult);
         boolean correctExp = ResultChecker.assertEquals(64, expResult);
         if (correctExp) {
