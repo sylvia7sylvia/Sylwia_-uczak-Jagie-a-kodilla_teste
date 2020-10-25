@@ -10,7 +10,8 @@ public class Calculator {
         return a - b;
     }
 
-    public int exp(int a) {    //potęgowanie
-        return a * a;
+    public int exp(int a, int n) {    //potęgowanie
+        int potega = (int)Math.pow(a, n);
+        return potega;
     }
 }
