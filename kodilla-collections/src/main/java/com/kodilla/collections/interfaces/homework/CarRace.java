@@ -17,8 +17,8 @@ public class CarRace {
         System.out.println("3 ... 2... 1... START!");
         System.out.println(" ");
 
-        Ford ford = new Ford();
-        ford.name = "Ford";
+        Ford ford = new Ford();//TODO Review: declare as Car (repeat for all cars)
+        ford.name = "Ford";//TODO Review: move to constructor (repeat for all cars)
         showCarSpeed(ford);
         doRace(ford);
 
