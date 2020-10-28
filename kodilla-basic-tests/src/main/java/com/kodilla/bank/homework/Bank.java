@@ -12,8 +12,8 @@ public class Bank {
 
     public int totalBalance() {
         int total = 0;
-        for (int i = 0; i < this.cashMachines.length; i++) {
-            total = total + cashMachines[i].getBalance();
+        for (CashMachine cashMachine : this.cashMachines) {
+            total = total + cashMachine.getBalance();
         }
         return total;
     }
@@ -22,9 +22,9 @@ public class Bank {
         int count = 0;
         int[] trasactions;
 
-        for (int i = 0; i < this.cashMachines.length; i++) {
-            trasactions = cashMachines[i].getValues();
-            for (int j = 0; j < cashMachines[i].getSize(); j++) {
+        for (CashMachine cashMachine : this.cashMachines) {
+            trasactions = cashMachine.getValues();
+            for (int j = 0; j < cashMachine.getSize(); j++) {
                 if (trasactions[j] < 0) {
                     count++;
                 }
@@ -37,9 +37,9 @@ public class Bank {
         int count = 0;
         int[] trasactions;
 
-        for (int i = 0; i < this.cashMachines.length; i++) {
-            trasactions = cashMachines[i].getValues();
-            for (int j = 0; j < cashMachines[i].getSize(); j++) {
+        for (CashMachine cashMachine : this.cashMachines) {
+            trasactions = cashMachine.getValues();
+            for (int j = 0; j < cashMachine.getSize(); j++) {
                 if (trasactions[j] > 0) {
                     count++;
                 }
@@ -48,17 +48,17 @@ public class Bank {
         return count;
     }
 
-    public double averageOfWithdrawals() {   //wypłata
+    public double averageOfWithdrawals() {
         double sum = 0;
         int count = 0;
         int[] trasactions;
 
-        for (int i = 0; i < this.cashMachines.length; i++) {
-            trasactions = cashMachines[i].getValues();
-            for (int j = 0; j < cashMachines[i].getSize(); j++) {
+        for (CashMachine cashMachine : this.cashMachines) {
+            trasactions = cashMachine.getValues();
+            for (int j = 0; j < cashMachine.getSize(); j++) {
                 if (trasactions[j] < 0) {
                     count++;
-                    sum = sum + trasactions[j];
+                    sum += trasactions[j];
                 }
             }
         }
@@ -69,17 +69,17 @@ public class Bank {
         }
     }
 
-    public double averageOfDeposits() {   //wpłata
+    public double averageOfDeposits() {
         double sum = 0;
         int count = 0;
         int[] trasactions;
 
-        for (int i = 0; i < this.cashMachines.length; i++) {
-            trasactions = cashMachines[i].getValues();
-            for (int j = 0; j < cashMachines[i].getSize(); j++) {
+        for (CashMachine cashMachine : this.cashMachines) {
+            trasactions = cashMachine.getValues();
+            for (int j = 0; j < cashMachine.getSize(); j++) {
                 if (trasactions[j] > 0) {
                     count++;
-                    sum = sum + trasactions[j];
+                    sum += trasactions[j];
                 }
             }
         }
