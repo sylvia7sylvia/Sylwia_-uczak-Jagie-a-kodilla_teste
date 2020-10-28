@@ -8,45 +8,30 @@ public class CalculatorTestSuite {
     @Test
     public void testAdd() {
         Calculator calculator = new Calculator();
-        int a = 8;
-        int b = 5;
-        int addResult = calculator.add(a, b);
-        assertEquals(13, addResult);
+        assertEquals(13, calculator.add(8, 5));
     }
 
     @Test
     public void testSub() {
         Calculator calculator = new Calculator();
-        int a = 8;
-        int b = 5;
-        int subResult = calculator.sub(a, b);
-        assertEquals(3, subResult);
+        assertEquals(3, calculator.sub(8, 5));
     }
 
     @Test
-    public void testExpA() {    //czy podzielić to na pojedyńcze testy dla kazdego potegowania? TODO - lepiej tak
+    public void testExpPositiveNumber() {
         Calculator calculator = new Calculator();
-        int a = 8;
-        int n = 3;
-        int expResultA = calculator.exp(a, n);
-        assertEquals(512, expResultA);
+        assertEquals(512, calculator.exp(8, 3));
     }
 
     @Test
-    public void testExpB() {
+    public void testExpNegativeNumber() {
         Calculator calculator = new Calculator();
-        int a = -8;
-        int n = 3;
-        int expResultB = calculator.exp(a, n);
-        assertEquals(-512, expResultB);
+        assertEquals(-512, calculator.exp(-8, 3));
     }
 
     @Test
-    public void testExpC() {
+    public void testExpZeroNumber() {
         Calculator calculator = new Calculator();
-        int a = 0;
-        int n = 3;
-        int expResultC = calculator.exp(a, n);
-        assertEquals(0, expResultC);
+        assertEquals(0, calculator.exp(0, 3));
     }
 }
