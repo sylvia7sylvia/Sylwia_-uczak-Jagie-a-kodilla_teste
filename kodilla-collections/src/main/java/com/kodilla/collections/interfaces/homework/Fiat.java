@@ -8,6 +8,7 @@ public class Fiat implements Car{
     private final int maxSpeed;
 
     public Fiat () {
+        this.name = "Fiat";
         this.speed = 0;
         this.enginePower = 3;
         this.breaksPower = 2;

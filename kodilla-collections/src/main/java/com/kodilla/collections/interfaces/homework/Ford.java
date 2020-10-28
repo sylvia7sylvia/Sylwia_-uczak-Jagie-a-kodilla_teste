@@ -8,6 +8,7 @@ public class Ford implements Car {
     private final int maxSpeed;
 
     public Ford () {
+        this.name = "Ford";
         this.speed = 0;
         this.enginePower = 5;
         this.breaksPower = 4;

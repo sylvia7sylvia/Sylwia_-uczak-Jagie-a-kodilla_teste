@@ -8,6 +8,7 @@ public class Kia implements Car {
     private final int maxSpeed;
 
     public Kia () {
+        this.name = "Kia";
         this.speed = 0;
         this.enginePower = 7;
         this.breaksPower = 5;
