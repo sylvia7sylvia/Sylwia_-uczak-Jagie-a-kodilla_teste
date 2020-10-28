@@ -2,12 +2,12 @@ package com.kodilla.bank.homework;
 
 public class Bank {
     public CashMachine[] cashMachines;
-    private final int size;
+    private final int size;//TODO: Review: Redundant variable, use cashMachines.length instead
 
     public Bank() {
         this.size = 3;
-        this.cashMachines = new CashMachine[this.size];
-        for (int i = 0; i < this.size; i++) {
+        this.cashMachines = new CashMachine[this.size]; //TODO = new CashMachine[3]
+        for (int i = 0; i < this.cashMachines.length; i++) { //TODO correct like that
             this.cashMachines[i] = new CashMachine();
         }
     }
