@@ -7,4 +7,6 @@ include 'com.kodilla.kodilla-collections'
 include 'kodilla-basic-tests:kodilla-collections'
 findProject(':kodilla-basic-tests:kodilla-collections')?.name = 'kodilla-collections'
 include 'kodilla-collections'
+include 'com.kodilla.collections.arrays'
+include 'kodilla-collections'
 
