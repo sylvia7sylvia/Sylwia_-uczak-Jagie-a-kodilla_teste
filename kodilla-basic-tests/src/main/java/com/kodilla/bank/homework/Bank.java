@@ -2,19 +2,17 @@ package com.kodilla.bank.homework;
 
 public class Bank {
     public CashMachine[] cashMachines;
-    private final int size;//TODO: Review: Redundant variable, use cashMachines.length instead
 
     public Bank() {
-        this.size = 3;
-        this.cashMachines = new CashMachine[this.size]; //TODO = new CashMachine[3]
-        for (int i = 0; i < this.cashMachines.length; i++) { //TODO correct like that
+        this.cashMachines = new CashMachine[3];
+        for (int i = 0; i < this.cashMachines.length; i++) {
             this.cashMachines[i] = new CashMachine();
         }
     }
 
     public int totalBalance() {
         int total = 0;
-        for (int i = 0; i < this.size; i++) {
+        for (int i = 0; i < this.cashMachines.length; i++) {
             total = total + cashMachines[i].getBalance();
         }
         return total;
@@ -24,7 +22,7 @@ public class Bank {
         int count = 0;
         int[] trasactions;
 
-        for (int i = 0; i < this.size; i++) {
+        for (int i = 0; i < this.cashMachines.length; i++) {
             trasactions = cashMachines[i].getValues();
             for (int j = 0; j < cashMachines[i].getSize(); j++) {
                 if (trasactions[j] < 0) {
@@ -39,7 +37,7 @@ public class Bank {
         int count = 0;
         int[] trasactions;
 
-        for (int i = 0; i < this.size; i++) {
+        for (int i = 0; i < this.cashMachines.length; i++) {
             trasactions = cashMachines[i].getValues();
             for (int j = 0; j < cashMachines[i].getSize(); j++) {
                 if (trasactions[j] > 0) {
@@ -55,7 +53,7 @@ public class Bank {
         int count = 0;
         int[] trasactions;
 
-        for (int i = 0; i < this.size; i++) {
+        for (int i = 0; i < this.cashMachines.length; i++) {
             trasactions = cashMachines[i].getValues();
             for (int j = 0; j < cashMachines[i].getSize(); j++) {
                 if (trasactions[j] < 0) {
@@ -76,7 +74,7 @@ public class Bank {
         int count = 0;
         int[] trasactions;
 
-        for (int i = 0; i < this.size; i++) {
+        for (int i = 0; i < this.cashMachines.length; i++) {
             trasactions = cashMachines[i].getValues();
             for (int j = 0; j < cashMachines[i].getSize(); j++) {
                 if (trasactions[j] > 0) {
