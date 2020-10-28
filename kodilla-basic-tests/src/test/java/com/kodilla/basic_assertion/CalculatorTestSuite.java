@@ -21,7 +21,7 @@ public class CalculatorTestSuite {
         assertEquals(3, subResult);
     }
     @Test
-    public void testExp() {    //czy podzielić to na pojedyńcze testy dla kazdego potegowania?
+    public void testExp() {    //czy podzielić to na pojedyńcze testy dla kazdego potegowania? TODO - lepiej tak
         Calculator calculator = new Calculator();
         int a = 8;
         int n = 3;
