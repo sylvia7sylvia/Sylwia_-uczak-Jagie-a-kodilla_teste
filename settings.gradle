@@ -3,4 +3,8 @@ include 'kodilla-intro'
 include 'kodilla-modul_2.2'
 include 'kodilla_module_2'
 include 'kodilla-basic-tests'
+include 'com.kodilla.kodilla-collections'
+include 'kodilla-basic-tests:kodilla-collections'
+findProject(':kodilla-basic-tests:kodilla-collections')?.name = 'kodilla-collections'
+include 'kodilla-collections'
 
