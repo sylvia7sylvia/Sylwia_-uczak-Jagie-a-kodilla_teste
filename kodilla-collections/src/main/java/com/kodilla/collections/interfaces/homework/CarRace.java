@@ -17,19 +17,19 @@ public class CarRace {
         System.out.println("3 ... 2... 1... START!");
         System.out.println(" ");
 
-        Car ford = new Ford();
+        Car ford = new Ford(0,5,4);
         showCarSpeed(ford);
         doRace(ford);
 
-        Car opel = new Opel();
+        Car opel = new Opel(0, 7, 5);
         showCarSpeed(opel);
         doRace(opel);
 
-        Car kia = new Kia();
+        Car kia = new Kia(0, 6, 4);
         showCarSpeed(kia);
         doRace(kia);
 
-        Car fiat = new Fiat();
+        Car fiat = new Fiat(0, 4, 3);
         showCarSpeed(fiat);
         doRace(fiat);
     }

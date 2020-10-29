@@ -7,11 +7,11 @@ public class Kia implements Car {
     private final int breaksPower;
     private final int maxSpeed;
 
-    public Kia () {
+    public Kia (int speed, int enginePower, int breaksPower) {
         this.name = "Kia";
-        this.speed = 0;
-        this.enginePower = 7;
-        this.breaksPower = 5;
+        this.speed = speed;
+        this.enginePower = enginePower;
+        this.breaksPower = breaksPower;
         this.maxSpeed = 150;
     }
 

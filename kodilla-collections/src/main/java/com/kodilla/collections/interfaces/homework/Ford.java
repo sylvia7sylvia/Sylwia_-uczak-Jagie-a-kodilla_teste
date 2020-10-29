@@ -7,11 +7,11 @@ public class Ford implements Car {
     private final int breaksPower;
     private final int maxSpeed;
 
-    public Ford () {
+    public Ford (int speed, int enginePower, int breaksPower) {
         this.name = "Ford";
-        this.speed = 0;
-        this.enginePower = 5;
-        this.breaksPower = 4;
+        this.speed = speed;
+        this.enginePower = enginePower;
+        this.breaksPower = breaksPower;
         this.maxSpeed = 180;
     }
 
