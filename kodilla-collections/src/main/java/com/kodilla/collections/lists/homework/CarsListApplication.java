@@ -26,6 +26,9 @@ public class CarsListApplication {
         cars.add(new Kia(175, 6, 5));
 
         System.out.println(cars.size());
+        /*TODO: Review
+            Missing code for
+            wyświetl w pętli for-each zawartość kolekcji używając przygotowanej wcześniej metody describeCar z klasy CarUtils.*/
 
         cars.remove(3);
         System.out.println(cars.size());
@@ -38,7 +41,7 @@ public class CarsListApplication {
         System.out.println(cars.size());
 
         for (Car car : cars) {
-            if (car.getSpeed() > 150) {
+            if (car.getSpeed() > 150) {//TODO Review: Task says nothing about this condition
                 CarUtils.describeCar(car);
 
             }
