@@ -9,7 +9,7 @@ import java.util.List;
 public class CarsListApplication {
     public static void main(String[] args) {
         List<Car> cars = new LinkedList<>();
-        Ford ford = new Ford(60,5,4);
+        Ford ford = new Ford(60, 5, 4);
         cars.add(ford);
         cars.add(new Ford(150, 5, 4));
         cars.add(new Ford(160, 5, 4));
@@ -25,27 +25,28 @@ public class CarsListApplication {
         cars.add(new Kia(165, 6, 5));
         cars.add(new Kia(175, 6, 5));
 
-        System.out.println(cars.size());
-        /*TODO: Review
-            Missing code for
-            wyświetl w pętli for-each zawartość kolekcji używając przygotowanej wcześniej metody describeCar z klasy CarUtils.*/
+
+        System.out.println("----------------------------------");
+        System.out.println("Moja kolekcja aut to " + cars.size() + " sztuk");
+        for (Car car : cars) {
+            CarUtils.describeCar(car);
+        }
 
         cars.remove(3);
-        System.out.println(cars.size());
 
         cars.remove(ford);
-        System.out.println(cars.size());
 
         Kia kiaToRemove = new Kia(185, 6, 5);
         cars.remove(kiaToRemove);
-        System.out.println(cars.size());
+
+        System.out.println("-------------------");
+        System.out.println("Po dodaniu jednego i zezłomowaniu trzech aut kolekcja liczy: " + cars.size() + " sztuk");
 
         for (Car car : cars) {
-            if (car.getSpeed() > 150) {//TODO Review: Task says nothing about this condition
-                CarUtils.describeCar(car);
-
-            }
+            CarUtils.describeCar(car);
         }
+        System.out.println("-------------------");
+        System.out.println("Teraz mamy: " + cars.size() + " sztuk aut w kolekcji");
     }
 }
 
