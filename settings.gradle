@@ -9,4 +9,7 @@ findProject(':kodilla-basic-tests:kodilla-collections')?.name = 'kodilla-collect
 include 'kodilla-collections'
 include 'com.kodilla.collections.arrays'
 include 'kodilla-collections'
+include 'kodilla-collections-advanced'
+include 'kodilla-collections-advanced:com.kodilla.collections.adv'
+findProject(':kodilla-collections-advanced:com.kodilla.collections.adv')?.name = 'com.kodilla.collections.adv'
 
