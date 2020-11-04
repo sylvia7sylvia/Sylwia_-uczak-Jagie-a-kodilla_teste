@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Stamp {
     private String stampName;
-    private String isStamped;
+    private String isStamped; //TODO Review: Pls change to boolean
     private double height;
     private double width;
 
