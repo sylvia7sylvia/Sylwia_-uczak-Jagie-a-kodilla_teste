@@ -11,7 +11,6 @@ public class StampsApplication {
         stamps.add(new Stamp("Bociany", true, 2.5, 2.5));
         stamps.add(new Stamp("Motyl", true, 2.5, 2.0));
 
-
         System.out.println("Ilość znaczków w kolekcji: " + stamps.size());
         for (Stamp stamp : stamps)
             System.out.println(stamp);

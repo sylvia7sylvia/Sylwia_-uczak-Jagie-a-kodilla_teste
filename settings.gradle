@@ -12,4 +12,8 @@ include 'kodilla-collections'
 include 'kodilla-collections-advanced'
 include 'kodilla-collections-advanced:com.kodilla.collections.adv'
 findProject(':kodilla-collections-advanced:com.kodilla.collections.adv')?.name = 'com.kodilla.collections.adv'
+include 'kodilla-collections-advanced:com.kodilla.collections.adv.immutable'
+findProject(':kodilla-collections-advanced:com.kodilla.collections.adv.immutable')?.name = 'com.kodilla.collections.adv.immutable'
+include 'sylwia'
+include 'sylwia-dodatkowe-zadania'
 

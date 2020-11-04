@@ -19,13 +19,12 @@ public class School {
     }
 
     public int SumOfStudents() {
-        int totalNumberOfStudents = 0;
-        int i;
-        for (i = 0; i < numberOfStudents.size(); i++) {
-            totalNumberOfStudents = numberOfStudents.stream().mapToInt(Integer::intValue).sum();
-        }
+//        int totalNumberOfStudents = 0;
+//        int i;
+//        for (i = 0; i < numberOfStudents.size(); i++) {
+//            totalNumberOfStudents ++;
+//        }
 
-
-        return totalNumberOfStudents;
+        return numberOfStudents.stream().mapToInt(Integer::intValue).sum();
     }
 }
