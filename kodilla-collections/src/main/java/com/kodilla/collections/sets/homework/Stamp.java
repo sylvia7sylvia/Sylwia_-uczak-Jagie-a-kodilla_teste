@@ -4,11 +4,11 @@ import java.util.Objects;
 
 public class Stamp {
     private String stampName;
-    private String isStamped; //TODO Review: Pls change to boolean
+    private boolean isStamped; //TODO Review: Pls change to boolean
     private double height;
     private double width;
 
-    public Stamp(String stampName, String isStamped, double height, double width) {
+    public Stamp(String stampName, boolean isStamped, double height, double width) {
         this.stampName = stampName;
         this.isStamped = isStamped;
         this.height = height;
@@ -20,7 +20,7 @@ public class Stamp {
 
     }
 
-    public String getIsStamped() {
+    public boolean getIsStamped() {
         return isStamped;
     }
 

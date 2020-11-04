@@ -14,16 +14,15 @@ public class School {
         return schoolName;
     }
 
-    public void AddClass(int numberOfStudents){
+    public void AddClass(int numberOfStudents) {
         this.numberOfStudents.add(numberOfStudents);
     }
 
-    public int SumOfStudents(){
+    public int SumOfStudents() {
         int totalNumberOfStudents = 0;
         int i;
-        for (i = 0; i < numberOfStudents.size(); i++){
-            totalNumberOfStudents += numberOfStudents.get(i); //TODO Pls try numberOfStudents.stream().mapToInt(Integer::intValue).sum();
-
+        for (i = 0; i < numberOfStudents.size(); i++) {
+            totalNumberOfStudents = numberOfStudents.stream().mapToInt(Integer::intValue).sum();
         }
 
 
