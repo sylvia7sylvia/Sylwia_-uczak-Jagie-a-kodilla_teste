@@ -4,9 +4,7 @@ public class ImmutableExample {
     public static void main(String[] args) {
         Book book = new Book("Roger Penrose", "Droga do rzeczywistości");
         BookHacked bookHacked = (BookHacked) book;
-        bookHacked.modifyTitle("Droga ...");
-
+        bookHacked.modifyTitle("New Title");
         System.out.println(book.getTitle());
-
     }
 }
