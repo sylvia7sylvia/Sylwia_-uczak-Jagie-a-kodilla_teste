@@ -6,17 +6,12 @@ import java.util.stream.Collectors;
 
 public class TaskManager {
     public static void main(String[] args) {
-        List<LocalDate> deadlines = TaskRepository.getTasks()
+        List<Task> deadlines = TaskRepository.getTasks()
                 .stream()
                 .filter(task -> task.getDeadline().isAfter(LocalDate.now()))
-                .map(task -> task.getDeadline())
+//                .map(task -> task.getDeadline())
                 .collect(Collectors.toList());
+        deadlines.forEach(System.out::println);  //deadlines.forEach(e -> System.out.println(e));
 
-        System.out.println(deadlines);
-
-//        TaskRepository.getTasks()
-//                .stream()
-//                .filter(task -> task.getDeadline().isAfter(LocalDate.now()))
-//                .forEach(t ->  System.out.println(t.getDeadline() + " " + t.getName()));
     }
 }

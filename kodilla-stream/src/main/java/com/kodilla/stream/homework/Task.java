@@ -41,4 +41,8 @@ public class Task {
         return Objects.hash(name, opened, deadline);
     }
 
+    @Override
+    public String toString() {
+        return "Task: \"" + name + "\", Data rozpoczecia " + opened + ", Data zakonczenia " + deadline;
+    }
 }
