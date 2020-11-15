@@ -1,4 +1,4 @@
-package com.kodilla.stream.optional.homework;
+package com.kodilla.optional.homework;
 
 public class Student {
     private String name;

@@ -1,4 +1,4 @@
-package com.kodilla.stream.optional;
+package com.kodilla.optional;
 
 import com.kodilla.stream.User;
 
