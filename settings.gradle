@@ -17,4 +17,7 @@ findProject(':kodilla-collections-advanced:com.kodilla.collections.adv.immutable
 include 'sylwia'
 include 'sylwia-dodatkowe-zadania'
 include 'kodilla-stream'
+include 'kodilla-intro:kodilla-advanced-tests'
+findProject(':kodilla-intro:kodilla-advanced-tests')?.name = 'kodilla-advanced-tests'
+include 'kodilla-advanced-tests'
 
