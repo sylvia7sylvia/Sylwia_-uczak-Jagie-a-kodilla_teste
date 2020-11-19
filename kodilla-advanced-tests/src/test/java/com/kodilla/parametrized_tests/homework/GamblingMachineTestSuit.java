@@ -45,7 +45,12 @@ public class GamblingMachineTestSuit {
     @CsvFileSource(resources = "/gamblingMachine3.csv")
     public void shouldThrowExeptionIfDontHaveNumber(String s1) {
         Arrays.asList(s1.split(",")).forEach(s ->
-            assertThrows(NumberFormatException.class, () -> Integer.parseInt(s)));
+                assertThrows(NumberFormatException.class, () -> Integer.parseInt(s)));
+
+//  ostatni test w przypadku testow białoskrzynkowych nie ma sensu,
+//  bo znając kod i zastosowanie w nim funkcji
+//  RandomNumber nigdy nie wylosujemy liter zamiast liczb.
+//  Gdybyśmy kodu nie znali to taki test ma sens.
 
     }
 }
