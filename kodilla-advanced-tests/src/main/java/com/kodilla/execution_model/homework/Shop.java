@@ -45,6 +45,6 @@ public class Shop {
         if (index >= 0 && index < orders.size()) {
             return this.orders.get(index);
         }
-        return null;
+        return null;//TODO Review kdrzazga: This will throw NullPointerException, return empty Order instead -> return new Order()
     }
 }
