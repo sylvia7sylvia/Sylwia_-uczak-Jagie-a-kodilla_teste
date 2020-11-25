@@ -7,6 +7,7 @@ import java.util.Collections;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 
 public class ShopTestSuite {
@@ -93,4 +94,11 @@ public class ShopTestSuite {
         System.out.println("Zakończenie testowania! Sprawdz rezultaty :)");
     }
 
+    @Test
+    public void testGetOrderWhichDoesntExist() {
+        Order order = shop.getOrder(6);
+        assertEquals(0f, order.getOrderValue());
+        assertNull(order.getOrderDate());
+        assertEquals("", order.getClientLogin());
+    }
 }
