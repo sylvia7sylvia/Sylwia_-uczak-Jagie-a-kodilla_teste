@@ -21,4 +21,8 @@ include 'kodilla-intro:kodilla-advanced-tests'
 findProject(':kodilla-intro:kodilla-advanced-tests')?.name = 'kodilla-advanced-tests'
 include 'kodilla-advanced-tests'
 include 'com.kodilla.notification'
+include 'com.kodilla.spring.basic'
+include 'kodilla-spring-basic'
+include 'kodilla-spring-basic:com.kodilla.spring.basic'
+findProject(':kodilla-spring-basic:com.kodilla.spring.basic')?.name = 'com.kodilla.spring.basic'
 
