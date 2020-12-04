@@ -4,7 +4,7 @@ public class SimpleApplication {
 
     private MessageService messageService;
 
-    public SimpleApplication(MessageService messageService) {
+    public SimpleApplication(MessageService messageService) {  //wstrzykuje - czyli podaje gotowy serwis do kontruktora
         this.messageService = messageService;
     }
 
