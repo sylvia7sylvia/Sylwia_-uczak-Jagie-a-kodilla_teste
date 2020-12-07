@@ -1,4 +1,4 @@
-package com.kodilla.spring.basic.dependency_injection;
+package com.kodilla.spring.basic.spring_dependency_injection;
 
 public interface MessageService {
 
