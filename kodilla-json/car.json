@@ -1,0 +1,23 @@
+{
+   "carName":"Clio",
+   "carBrand":"Renault",
+   "carSeat":[
+      {
+         "fabric":"leather",
+         "colour":"green"
+      },
+      {
+         "fabric":"linen",
+         "colour":"grey"
+      },
+      {
+         "fabric":"cotton",
+         "colour":"black"
+      },
+      {
+         "fabric":"polyester",
+         "colour":"blue"
+      }
+   ],
+   "engineCapacity":1.00
+}
