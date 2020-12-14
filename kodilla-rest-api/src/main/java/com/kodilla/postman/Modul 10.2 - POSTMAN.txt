@@ -1,0 +1,8 @@
+Dodany urzytkownik - user 1481
+
+Dodany post - 
+        {
+            "user_id": 1481,
+            "title": "Jakis tam post do zadania z kodilla 10.2",
+            "body": "To jest post do zadania 10.2 z kursu Tester automatyzujacy KODILLA. Kurs jest bardzo trudny i ma wiele błędów, ale i tak czuje, że dużo jestem w stanie sie na nim nauczyc. Mam super mentora, ktory duzo mi tlumaczy! Milego dnia!",
+        },
