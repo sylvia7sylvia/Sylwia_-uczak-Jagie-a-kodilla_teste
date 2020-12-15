@@ -36,11 +36,11 @@ public class BookDto {
         return Objects.hash(title, author);
     }
 
-    @Override
-    public String toString() {
-        return "BookDto{" +
-                "title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "BookDto{" +
+//                "title='" + title + '\'' +
+//                ", author='" + author + '\'' +
+//                '}';
+//    }
 }
