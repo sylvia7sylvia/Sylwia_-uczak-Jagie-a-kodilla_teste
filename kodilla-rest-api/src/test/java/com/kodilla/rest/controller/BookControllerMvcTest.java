@@ -29,15 +29,6 @@ public class BookControllerMvcTest {
     @MockBean
     private BookService bookService;
 
-//    @Test
-//    public void shouldFetchBooks() throws Exception {
-//        //given
-//        List<BookDto> booksList = new ArrayList<>();
-//        booksList.add(new BookDto("title 1", "author 1"));
-//        booksList.add(new BookDto("title 2", "author 2"));
-//        Mockito.when(bookService.getBooks()).thenReturn(booksList);
-//    }
-
     @Test
     public void shouldFetchBooks() throws Exception {
         //given
@@ -47,9 +38,9 @@ public class BookControllerMvcTest {
         Mockito.when(bookService.getBooks()).thenReturn(booksList);
 
         //when & then
-        mockMvc.perform(MockMvcRequestBuilders.get("/books")                      // [1]
+        mockMvc.perform(MockMvcRequestBuilders.get("/books")
                 .contentType(MediaType.APPLICATION_JSON))
-                .andExpect(MockMvcResultMatchers.status().is(200))                     // [2]
+                .andExpect(MockMvcResultMatchers.status().is(200))
                 .andExpect(MockMvcResultMatchers.jsonPath("$", Matchers.hasSize(2)));
     }
 
@@ -62,6 +53,7 @@ public class BookControllerMvcTest {
         BookDto bookDtoMock = new BookDto("title 1", "author 1");
         booksList.add(bookDtoMock);
         String json = gson.toJson(bookDtoMock);
+
         //when & then
         mockMvc.perform(MockMvcRequestBuilders
                 .post("/books")
