@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <carBrand>Renault</carBrand>
+   <carColour>Red</carColour>
+   <carDoor>5</carDoor>
+   <carName>Clio</carName>
+   <carParamets>
+      <element>
+         <engineCapacity>1.0</engineCapacity>
+      </element>
+      <element>
+         <ABS>true</ABS>
+      </element>
+      <element>
+         <GPSnavi>true</GPSnavi>
+      </element>
+      <element>
+         <Gears>5</Gears>
+         <manualGearbox>true</manualGearbox>
+      </element>
+   </carParamets>
+   <howMenyPeopleInCar>5</howMenyPeopleInCar>
+</root>

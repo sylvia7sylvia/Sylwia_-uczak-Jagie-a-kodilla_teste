@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+          <!-- XML Schema Generated from XML Document on Thu Dec 17 2020 10:14:02 GMT+0100 (czas środkowoeuropejski standardowy) -->
+          <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+       <xs:element name="root">
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name="carBrand" type="xs:string"></xs:element>
+                            <xs:element name="carColour" type="xs:string"></xs:element>
+                            <xs:element name="carDoor" type="xs:int"></xs:element>
+                            <xs:element name="carName" type="xs:string"></xs:element>
+                            <xs:element name="carParamets">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="element" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                               <xs:sequence>
+                                                                      <xs:element name="engineCapacity" type="xs:int"></xs:element>
+                                                                  </xs:sequence>
+                                                           </xs:complexType>
+                                                    </xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                            <xs:element name="howMenyPeopleInCar" type="xs:int"></xs:element>
+                        </xs:sequence>
+                 </xs:complexType>
+          </xs:element>
+   </xs:schema>
