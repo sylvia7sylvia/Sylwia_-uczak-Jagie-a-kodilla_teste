@@ -1,7 +1,6 @@
 package com.kodilla.selenium.google;
 
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -34,12 +33,24 @@ public class GoogleExample {
     private static void clickIagree(ChromeDriver driver) {
         String iAgreeText = "I agree";
         try {
-            WebElement iAgreeBtn = driver.findElementByXPath("//span[contains (text(), '"+ iAgreeText + "')]");
+            WebElement iAgreeBtn = driver.findElementByXPath("//span[contains (text(), '" + iAgreeText + "')]");
             System.out.println("Button text " + iAgreeBtn.getText());
             iAgreeBtn.click();
         } catch (Exception e) {
             System.err.println("BUTTON NOT FOUND " + e.getLocalizedMessage());
             driver.close();
         }
+
+//        public static void main (String[]args) throws InterruptedException {
+//            System.setProperty("webdriver.chrome.driver", "C:\\selenium-drivers\\Chrome\\chromedriver.exe");
+//            WebDriver driver = new ChromeDriver();   //lub WebDriver driver = new FirefoxDriver(); + inna ścieżka
+//            driver.get("https://www.google.com");
+//
+//            Thread.sleep(7000);
+//            WebElement iAgreeButton = driver.findElement((By) By.xpath("//*[@id=\"cnsw\"]/iframe").findElement((SearchContext) By.xpath("//*[@id=\"introAgreeButton\"]/span/span")));
+//            iAgreeButton.click();
+//
+//
+//        }
     }
 }
