@@ -12,7 +12,7 @@ public class GoogleExample {
         driver.get("https://www.google.com");
         driver.switchTo().frame(0);
         clickIagree(driver);
-        searchFor(driver, "Ala ma kota");
+        searchFor(driver, "Kodilla");
 
         try {
             Thread.sleep(2000);
@@ -31,7 +31,7 @@ public class GoogleExample {
     }
 
     private static void clickIagree(ChromeDriver driver) {
-        String iAgreeText = "I agree";
+        String iAgreeText = "Zgadzam się";
         try {
             WebElement iAgreeBtn = driver.findElementByXPath("//span[contains (text(), '" + iAgreeText + "')]");
             System.out.println("Button text " + iAgreeBtn.getText());
@@ -40,17 +40,5 @@ public class GoogleExample {
             System.err.println("BUTTON NOT FOUND " + e.getLocalizedMessage());
             driver.close();
         }
-
-//        public static void main (String[]args) throws InterruptedException {
-//            System.setProperty("webdriver.chrome.driver", "C:\\selenium-drivers\\Chrome\\chromedriver.exe");
-//            WebDriver driver = new ChromeDriver();   //lub WebDriver driver = new FirefoxDriver(); + inna ścieżka
-//            driver.get("https://www.google.com");
-//
-//            Thread.sleep(7000);
-//            WebElement iAgreeButton = driver.findElement((By) By.xpath("//*[@id=\"cnsw\"]/iframe").findElement((SearchContext) By.xpath("//*[@id=\"introAgreeButton\"]/span/span")));
-//            iAgreeButton.click();
-//
-//
-//        }
     }
 }
