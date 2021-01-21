@@ -1,4 +1,4 @@
-package com.kodilla.selenium.google;
+package com.kodilla.selenium.ebay;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
