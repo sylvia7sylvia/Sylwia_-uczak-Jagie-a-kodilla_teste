@@ -10,8 +10,8 @@ public class KodillaTestingApp {
         ChromeDriver driver = new ChromeDriver();
         driver.get("https://kodilla.com/pl/sign-in");
 //        driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-        login(driver);
         iAgree(driver);
+        login(driver);
 //        closeAdvertisement(driver);
 
         try {
