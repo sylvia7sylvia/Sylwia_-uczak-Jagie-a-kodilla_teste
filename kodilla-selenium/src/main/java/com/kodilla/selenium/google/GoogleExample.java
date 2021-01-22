@@ -14,6 +14,7 @@ public class GoogleExample {
         clickIagree(driver);
         searchFor(driver, "Kodilla");
 
+
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
