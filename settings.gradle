@@ -28,4 +28,5 @@ findProject(':kodilla-spring-basic:com.kodilla.spring.basic')?.name = 'com.kodil
 include 'kodilla-rest-api'
 include 'kodilla-selenium'
 include 'kodilla-google-selenium'
+include 'kodilla-cucumber'
 

@@ -18,20 +18,20 @@ public class AllegroTestingApp {
     }
 
     public static void iAgree(ChromeDriver driver) {
-        WebElement iAgreeButton = driver.findElement(By.xpath("//html/body/div[3]/div[7]/div/div[2]/div[2]/button[1]"));
+        WebElement iAgreeButton = driver.findElement(By.xpath("//button[@type='button' and text()='Ok, zgadzam się']"));
         iAgreeButton.click();
     }
 
     public static void searchFor(ChromeDriver driver) throws InterruptedException {
-        WebElement searchForTextBox = driver.findElement(By.xpath("/html/body/div[3]/div[3]/header/div/div/div[1]/div/form/input"));
+        WebElement searchForTextBox = driver.findElement(By.name("string"));
         searchForTextBox.click();
         searchForTextBox.sendKeys("Mavic mini");
         TimeUnit.SECONDS.sleep(3);
-        WebElement categoryBox = driver.findElement(By.xpath("/html/body/div[3]/div[3]/header/div/div/div[1]/div/form/div[3]/div/select"));
+        WebElement categoryBox = driver.findElement(By.xpath("//select[@aria-label='Kategoria i opcje wyszukiwania']"));
         Select categoryBoxSelect = new Select(categoryBox);
         categoryBoxSelect.selectByIndex(3);
         TimeUnit.SECONDS.sleep(3);
-        WebElement szukajButton = driver.findElement(By.xpath("/html/body/div[3]/div[3]/header/div/div/div[1]/div/form/button"));
+        WebElement szukajButton = driver.findElement(By.xpath("//button[@type='submit']"));
         szukajButton.click();
 
     }
