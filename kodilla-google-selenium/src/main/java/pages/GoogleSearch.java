@@ -14,6 +14,7 @@ import java.util.List;
 public class GoogleSearch extends AbstractPage {
 
     @FindBy(css = "input[title='Szukaj']") //TODO nie mam pojęcia jak to zmienić, bo nie mogę sobie ustawić google po angielsku
+    //TODO - wystarczy wejsc na strone www.google.pl zeby nie musiec ustawiac jezyka
     static WebElement inputField;
 
     @FindBy(css = "input[value='Szukaj w Google']") //selektor guzika SZUKAJ

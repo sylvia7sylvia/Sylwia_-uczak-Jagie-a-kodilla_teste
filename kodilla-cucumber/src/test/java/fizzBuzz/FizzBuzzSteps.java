@@ -9,21 +9,9 @@ public class FizzBuzzSteps implements En {
 
     public FizzBuzzSteps() {
 
-        Given("Number is equal to 3", () -> {
-            this.number = 3;
-        });
-
-        Given("Number is equal to 5", () -> {
-            this.number = 5;
-        });
-
-        Given("Number is equal to 15", () -> {
-            this.number = 15;
-        });
-
-        Given("Number is equal to 13", () -> {
-            this.number = 13;
-        });
+        Given("^Number is equal to (.*)$", (String number) -> {
+            this.number = Integer.parseInt(number);
+        }); //TODO: pls take a look at this solution
 
         When("Check if the number is divisible by 3 and 5", () -> {
             FizzBuzzChecker fizzBuzzChecker = new FizzBuzzChecker();

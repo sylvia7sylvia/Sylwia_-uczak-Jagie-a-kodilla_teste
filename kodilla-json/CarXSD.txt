@@ -7,7 +7,7 @@
                      <xs:sequence>
                             <xs:element name="carBrand" type="xs:string"></xs:element>
                             <xs:element name="carColour" type="xs:string"></xs:element>
-                            <xs:element name="carDoor" type="xs:int"></xs:element>
+                            <xs:element name="carDoor" type="xs:int">,</xs:element>
                             <xs:element name="carName" type="xs:string"></xs:element>
                             <xs:element name="carParamets">
                                    <xs:complexType>
