@@ -1,0 +1,69 @@
+
+plugins {
+    id 'java'
+    id 'jacoco'
+    id 'checkstyle'
+    id "com.github.spotbugs" version "3.0.0"
+}
+
+checkstyle {
+    toolVersion "8.30"
+    configFile = file("checkstyle.xml")
+}
+
+group 'com.kodilla'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+}
+jacoco {
+    toolVersion = '0.8.7-SNAPSHOT'
+}
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            element = 'METHOD'
+            limit {
+                counter = 'LINE'
+                counter = 'BRANCH'
+                value = 'COVEREDRATIO'
+                minimum = 1.0
+            }
+            includes = [
+                    'com.kodilla.jacoco.*'
+            ]
+        }
+    }
+}
+
+spotbugs {
+    toolVersion = '3.1.12'
+    ignoreFailures = true
+}
+
+spotbugsMain {
+    reports.html.enabled = true
+    reports.xml.enabled = false
+}
+
+spotbugsTest {
+    reports.html.enabled = true
+    reports.xml.enabled = false
+}

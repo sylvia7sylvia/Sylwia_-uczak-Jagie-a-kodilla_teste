@@ -29,4 +29,5 @@ include 'kodilla-rest-api'
 include 'kodilla-selenium'
 include 'kodilla-google-selenium'
 include 'kodilla-cucumber'
+include 'kodilla-code-coverage'
 
