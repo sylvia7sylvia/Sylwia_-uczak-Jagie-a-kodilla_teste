@@ -9,17 +9,13 @@ public class FizzBuzzSteps implements En {
 
     public FizzBuzzSteps() {
 
-        Given("^Number is equal to (.*)$", (String number) -> {
-            this.number = Integer.parseInt(number);
-        }); //TODO: pls take a look at this solution
+        Given("^Number is equal to (.*)$", (String number) -> this.number = Integer.parseInt(number)); //TODO: pls take a look at this solution
 
-        When("Check if the number is divisible by 3 and 5", () -> {
+        When("^Check if the number is divisible by (.*) and (.*)$", (String numberA, String numberB) -> {
             FizzBuzzChecker fizzBuzzChecker = new FizzBuzzChecker();
-            this.answer = fizzBuzzChecker.fizzBuzzChecker(this.number);
+            this.answer = fizzBuzzChecker.fizzBuzzChecker(this.number, Integer.parseInt(numberA), Integer.parseInt(numberB));
         });
 
-        Then("Should get an answer which is: {string}", (String string) -> {
-            Assert.assertEquals(string, this.answer);
-        });
+        Then("Should get an answer which is: {string}", (String string) -> Assert.assertEquals(string, this.answer));
     }
 }

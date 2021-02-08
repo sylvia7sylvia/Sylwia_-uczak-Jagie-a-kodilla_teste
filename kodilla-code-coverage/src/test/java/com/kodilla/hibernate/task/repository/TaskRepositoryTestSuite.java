@@ -20,18 +20,18 @@ public class TaskRepositoryTestSuite {
 
     @Test
     public void testTaskRepositoryFindByDuration() {
-        //Given
+        //given
         Task task = new Task(DESCRIPTION, 7);
         taskRepository.save(task);
         int duration = task.getDuration();
 
-        //When
+        //when
         List<Task> readTasks = taskRepository.findByDuration(duration);
 
-        //Then
+        //then
         Assert.assertEquals(1, readTasks.size());
 
-        //CleanUp
+        //cleanup
         int id = readTasks.get(0).getId();
         taskRepository.deleteById(id);
     }
