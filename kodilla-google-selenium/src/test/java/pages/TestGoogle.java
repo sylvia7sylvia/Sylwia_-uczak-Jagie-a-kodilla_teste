@@ -16,7 +16,7 @@ public class TestGoogle {
     public void testSetup() {
         System.setProperty("webdriver.chrome.driver", "C:\\selenium-drivers\\Chrome\\chromedriver.exe");      // [1]
         driver = new ChromeDriver();
-        driver.navigate().to("https://www.google.com");
+        driver.navigate().to("https://www.google.pl/");
     }
 
     @After
