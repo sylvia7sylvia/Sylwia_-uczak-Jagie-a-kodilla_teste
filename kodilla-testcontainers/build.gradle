@@ -5,15 +5,30 @@ plugins {
 group 'com.kodilla'
 version '1.0-SNAPSHOT'
 
+// sourceCompatibility = 1.8
+
 repositories {
     mavenCentral()
 }
 
-dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
-}
-
 test {
     useJUnitPlatform()
+}
+
+dependencies {
+    compile "org.seleniumhq.selenium:selenium-remote-driver:3.141.59"
+    compile "org.seleniumhq.selenium:selenium-java:3.141.59"
+    compile group: 'org.testcontainers', name: 'selenium', version: '1.15.2'
+    testCompile(
+            "org.testcontainers:selenium:1.15.2",
+//            "org.testcontainers:testcontainers",
+            group: 'junit', name: 'junit', version: '4.12',
+
+    )
+//    implementation platform('org.testcontainers:testcontainers-bom:1.15.2') //import bom
+//    testImplementation('org.testcontainers:mysql') //no version specified
+//    testImplementation "org.testcontainers:junit-jupiter:1.15.2"
+    implementation "org.testcontainers:testcontainers"
+    implementation 'org.testng:testng:7.1.0'
+    implementation 'junit:junit:4.12'
 }
