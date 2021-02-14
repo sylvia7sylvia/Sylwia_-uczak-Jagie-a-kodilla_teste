@@ -1,0 +1,401 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1613307286630,3905,kodilla.com main page,200,OK,kodilla users 1-2,text,true,,96051,337,10,10,https://kodilla.com/pl,354,0,255
+1613307286752,3783,kodilla.com main page,200,OK,kodilla users 1-6,text,true,,96071,337,10,10,https://kodilla.com/pl,233,0,144
+1613307286630,366,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-2,text,true,,331,113,10,10,http://www.kodilla.com/,354,0,255
+1613307286752,246,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-6,text,true,,331,113,10,10,http://www.kodilla.com/,233,0,144
+1613307287014,2471,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-6,text,true,,1397,113,10,10,https://kodilla.com:443/,2470,0,2299
+1613307289488,1047,kodilla.com main page-2,200,OK,kodilla users 1-6,text,true,,94343,111,10,10,https://kodilla.com/pl,674,0,475
+1613307287012,2479,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-2,text,true,,1393,113,10,10,https://kodilla.com:443/,2471,0,2310
+1613307289493,1042,kodilla.com main page-2,200,OK,kodilla users 1-2,text,true,,94327,111,10,10,https://kodilla.com/pl,730,0,477
+1613307286853,3702,kodilla.com main page,200,OK,kodilla users 1-7,text,true,,96045,337,10,10,https://kodilla.com/pl,132,0,61
+1613307286853,145,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-7,text,true,,331,113,10,10,http://www.kodilla.com/,132,0,61
+1613307287017,2479,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-7,text,true,,1391,113,10,10,https://kodilla.com:443/,2463,0,2299
+1613307289498,1057,kodilla.com main page-2,200,OK,kodilla users 1-7,text,true,,94323,111,10,10,https://kodilla.com/pl,767,0,529
+1613307286657,3926,kodilla.com main page,200,OK,kodilla users 1-5,text,true,,96043,337,10,10,https://kodilla.com/pl,327,0,230
+1613307286657,341,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-5,text,true,,331,113,10,10,http://www.kodilla.com/,327,0,230
+1613307287008,2715,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-5,text,true,,1395,113,10,10,https://kodilla.com:443/,2714,0,2301
+1613307289729,854,kodilla.com main page-2,200,OK,kodilla users 1-5,text,true,,94317,111,10,10,https://kodilla.com/pl,550,0,332
+1613307286632,3990,kodilla.com main page,200,OK,kodilla users 1-3,text,true,,96057,337,10,10,https://kodilla.com/pl,353,0,262
+1613307286632,366,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-3,text,true,,331,113,10,10,http://www.kodilla.com/,353,0,262
+1613307287008,2719,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-3,text,true,,1395,113,10,10,https://kodilla.com:443/,2718,0,2314
+1613307289737,885,kodilla.com main page-2,200,OK,kodilla users 1-3,text,true,,94331,111,10,10,https://kodilla.com/pl,610,0,430
+1613307286632,4240,kodilla.com main page,200,OK,kodilla users 1-4,text,true,,96067,337,10,10,https://kodilla.com/pl,352,0,263
+1613307286632,366,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-4,text,true,,331,113,10,10,http://www.kodilla.com/,352,0,263
+1613307287017,2469,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-4,text,true,,1399,113,10,10,https://kodilla.com:443/,2466,0,2292
+1613307289489,1383,kodilla.com main page-2,200,OK,kodilla users 1-4,text,true,,94337,111,10,10,https://kodilla.com/pl,1042,0,476
+1613307287050,3828,kodilla.com main page,200,OK,kodilla users 1-9,text,true,,96061,337,10,10,https://kodilla.com/pl,126,0,61
+1613307287050,126,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-9,text,true,,331,113,10,10,http://www.kodilla.com/,126,0,61
+1613307287179,2313,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-9,text,true,,1397,113,10,10,https://kodilla.com:443/,2302,0,2138
+1613307289497,1381,kodilla.com main page-2,200,OK,kodilla users 1-9,text,true,,94333,111,10,10,https://kodilla.com/pl,1027,0,464
+1613307286630,4337,kodilla.com main page,200,OK,kodilla users 1-1,text,true,,96055,337,10,10,https://kodilla.com/pl,353,0,262
+1613307286630,366,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-1,text,true,,331,113,10,10,http://www.kodilla.com/,353,0,262
+1613307287014,2712,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-1,text,true,,1393,113,10,10,https://kodilla.com:443/,2712,0,2299
+1613307289733,1234,kodilla.com main page-2,200,OK,kodilla users 1-1,text,true,,94331,111,10,10,https://kodilla.com/pl,928,0,339
+1613307287154,3834,kodilla.com main page,200,OK,kodilla users 1-10,text,true,,96059,337,10,10,https://kodilla.com/pl,132,0,70
+1613307287154,132,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-10,text,true,,331,113,10,10,http://www.kodilla.com/,132,0,70
+1613307287290,2195,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-10,text,true,,1393,113,10,10,https://kodilla.com:443/,2190,0,2034
+1613307289492,1496,kodilla.com main page-2,200,OK,kodilla users 1-10,text,true,,94335,111,10,10,https://kodilla.com/pl,1143,0,541
+1613307286950,4049,kodilla.com main page,200,OK,kodilla users 1-8,text,true,,96063,337,10,10,https://kodilla.com/pl,143,0,79
+1613307286950,143,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-8,text,true,,331,113,10,10,http://www.kodilla.com/,143,0,79
+1613307287095,2635,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-8,text,true,,1391,113,10,10,https://kodilla.com:443/,2635,0,2229
+1613307289733,1266,kodilla.com main page-2,200,OK,kodilla users 1-8,text,true,,94341,111,10,10,https://kodilla.com/pl,916,0,332
+1613307290544,592,kodilla.com main page,200,OK,kodilla users 1-6,text,true,,96051,337,10,10,https://kodilla.com/pl,70,0,0
+1613307290544,70,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-6,text,true,,331,113,10,10,http://www.kodilla.com/,70,0,0
+1613307290615,98,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-6,text,true,,1395,113,10,10,https://kodilla.com:443/,98,0,0
+1613307290714,422,kodilla.com main page-2,200,OK,kodilla users 1-6,text,true,,94325,111,10,10,https://kodilla.com/pl,186,0,0
+1613307290874,522,kodilla.com main page,200,OK,kodilla users 1-4,text,true,,96031,337,10,10,https://kodilla.com/pl,64,0,0
+1613307290874,64,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-4,text,true,,331,113,10,10,http://www.kodilla.com/,64,0,0
+1613307290939,84,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-4,text,true,,1391,113,10,10,https://kodilla.com:443/,84,0,0
+1613307291024,372,kodilla.com main page-2,200,OK,kodilla users 1-4,text,true,,94309,111,10,10,https://kodilla.com/pl,136,0,0
+1613307290624,855,kodilla.com main page,200,OK,kodilla users 1-3,text,true,,96039,337,10,10,https://kodilla.com/pl,68,0,0
+1613307290624,68,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-3,text,true,,331,113,10,10,http://www.kodilla.com/,68,0,0
+1613307290692,416,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-3,text,true,,1393,113,10,10,https://kodilla.com:443/,415,0,0
+1613307291108,371,kodilla.com main page-2,200,OK,kodilla users 1-3,text,true,,94315,111,10,10,https://kodilla.com/pl,125,0,0
+1613307290990,498,kodilla.com main page,200,OK,kodilla users 1-10,text,true,,96053,337,10,10,https://kodilla.com/pl,59,0,0
+1613307290990,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-10,text,true,,331,113,10,10,http://www.kodilla.com/,59,0,0
+1613307291049,93,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-10,text,true,,1393,113,10,10,https://kodilla.com:443/,93,0,0
+1613307291142,346,kodilla.com main page-2,200,OK,kodilla users 1-10,text,true,,94329,111,10,10,https://kodilla.com/pl,120,0,0
+1613307290546,1164,kodilla.com main page,200,OK,kodilla users 1-2,text,true,,96047,337,10,10,https://kodilla.com/pl,66,0,0
+1613307290546,66,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-2,text,true,,331,113,10,10,http://www.kodilla.com/,66,0,0
+1613307290612,109,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-2,text,true,,1393,113,10,10,https://kodilla.com:443/,109,0,0
+1613307290722,988,kodilla.com main page-2,200,OK,kodilla users 1-2,text,true,,94323,111,10,10,https://kodilla.com/pl,667,0,0
+1613307290557,1262,kodilla.com main page,200,OK,kodilla users 1-7,text,true,,96063,337,10,10,https://kodilla.com/pl,60,0,0
+1613307290557,60,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-7,text,true,,331,113,10,10,http://www.kodilla.com/,60,0,0
+1613307290618,224,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-7,text,true,,1393,113,10,10,https://kodilla.com:443/,223,0,0
+1613307290842,977,kodilla.com main page-2,200,OK,kodilla users 1-7,text,true,,94339,111,10,10,https://kodilla.com/pl,730,0,0
+1613307290968,977,kodilla.com main page,200,OK,kodilla users 1-1,text,true,,96039,337,10,10,https://kodilla.com/pl,59,0,0
+1613307290968,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-1,text,true,,331,113,10,10,http://www.kodilla.com/,59,0,0
+1613307291027,522,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-1,text,true,,1391,113,10,10,https://kodilla.com:443/,521,0,0
+1613307291549,396,kodilla.com main page-2,200,OK,kodilla users 1-1,text,true,,94317,111,10,10,https://kodilla.com/pl,132,0,0
+1613307291481,466,kodilla.com main page,200,OK,kodilla users 1-3,text,true,,96037,337,10,10,https://kodilla.com/pl,59,0,0
+1613307291481,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-3,text,true,,331,113,10,10,http://www.kodilla.com/,59,0,0
+1613307291541,76,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-3,text,true,,1391,113,10,10,https://kodilla.com:443/,75,0,0
+1613307291618,329,kodilla.com main page-2,200,OK,kodilla users 1-3,text,true,,94315,111,10,10,https://kodilla.com/pl,109,0,0
+1613307290586,1562,kodilla.com main page,200,OK,kodilla users 1-5,text,true,,96045,337,10,10,https://kodilla.com/pl,94,0,0
+1613307290586,95,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-5,text,true,,331,113,10,10,http://www.kodilla.com/,94,0,0
+1613307290681,377,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-5,text,true,,1395,113,10,10,https://kodilla.com:443/,376,0,0
+1613307291058,1090,kodilla.com main page-2,200,OK,kodilla users 1-5,text,true,,94319,111,10,10,https://kodilla.com/pl,807,0,0
+1613307291001,1201,kodilla.com main page,200,OK,kodilla users 1-8,text,true,,96069,337,10,10,https://kodilla.com/pl,61,0,0
+1613307291001,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-8,text,true,,331,113,10,10,http://www.kodilla.com/,61,0,0
+1613307291063,97,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-8,text,true,,1393,113,10,10,https://kodilla.com:443/,97,0,0
+1613307291161,1041,kodilla.com main page-2,200,OK,kodilla users 1-8,text,true,,94345,111,10,10,https://kodilla.com/pl,797,0,0
+1613307291490,882,kodilla.com main page,200,OK,kodilla users 1-10,text,true,,96039,337,10,10,https://kodilla.com/pl,56,0,0
+1613307291490,56,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-10,text,true,,331,113,10,10,http://www.kodilla.com/,56,0,0
+1613307291547,542,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-10,text,true,,1395,113,10,10,https://kodilla.com:443/,542,0,0
+1613307292089,283,kodilla.com main page-2,200,OK,kodilla users 1-10,text,true,,94313,111,10,10,https://kodilla.com/pl,109,0,0
+1613307290880,1610,kodilla.com main page,200,OK,kodilla users 1-9,text,true,,96065,337,10,10,https://kodilla.com/pl,63,0,0
+1613307290880,63,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-9,text,true,,331,113,10,10,http://www.kodilla.com/,63,0,0
+1613307290943,485,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-9,text,true,,1393,113,10,10,https://kodilla.com:443/,484,0,0
+1613307291429,1061,kodilla.com main page-2,200,OK,kodilla users 1-9,text,true,,94341,111,10,10,https://kodilla.com/pl,810,0,0
+1613307291397,1235,kodilla.com main page,200,OK,kodilla users 1-4,text,true,,96059,337,10,10,https://kodilla.com/pl,57,0,0
+1613307291397,57,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-4,text,true,,331,113,10,10,http://www.kodilla.com/,57,0,0
+1613307291455,89,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-4,text,true,,1393,113,10,10,https://kodilla.com:443/,88,0,0
+1613307291544,1088,kodilla.com main page-2,200,OK,kodilla users 1-4,text,true,,94335,111,10,10,https://kodilla.com/pl,854,0,0
+1613307292203,490,kodilla.com main page,200,OK,kodilla users 1-8,text,true,,96047,337,10,10,https://kodilla.com/pl,58,0,0
+1613307292203,58,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-8,text,true,,331,113,10,10,http://www.kodilla.com/,58,0,0
+1613307292261,79,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-8,text,true,,1393,113,10,10,https://kodilla.com:443/,78,0,0
+1613307292340,353,kodilla.com main page-2,200,OK,kodilla users 1-8,text,true,,94323,111,10,10,https://kodilla.com/pl,115,0,0
+1613307291137,1772,kodilla.com main page,200,OK,kodilla users 1-6,text,true,,96051,337,10,10,https://kodilla.com/pl,58,0,0
+1613307291137,58,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-6,text,true,,331,113,10,10,http://www.kodilla.com/,58,0,0
+1613307291195,535,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-6,text,true,,1393,113,10,10,https://kodilla.com:443/,534,0,0
+1613307291730,1179,kodilla.com main page-2,200,OK,kodilla users 1-6,text,true,,94327,111,10,10,https://kodilla.com/pl,873,0,0
+1613307291713,1367,kodilla.com main page,200,OK,kodilla users 1-2,text,true,,96066,337,10,10,https://kodilla.com/pl,58,0,0
+1613307291713,58,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-2,text,true,,331,113,10,10,http://www.kodilla.com/,58,0,0
+1613307291771,91,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-2,text,true,,1393,113,10,10,https://kodilla.com:443/,90,0,0
+1613307291862,1218,kodilla.com main page-2,200,OK,kodilla users 1-2,text,true,,94342,111,10,10,https://kodilla.com/pl,917,0,0
+1613307292149,955,kodilla.com main page,200,OK,kodilla users 1-5,text,true,,96043,337,10,10,https://kodilla.com/pl,59,0,0
+1613307292149,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-5,text,true,,331,113,10,10,http://www.kodilla.com/,59,0,0
+1613307292209,575,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-5,text,true,,1393,113,10,10,https://kodilla.com:443/,575,0,0
+1613307292784,320,kodilla.com main page-2,200,OK,kodilla users 1-5,text,true,,94319,111,10,10,https://kodilla.com/pl,119,0,0
+1613307292694,471,kodilla.com main page,200,OK,kodilla users 1-8,text,true,,96041,337,10,10,https://kodilla.com/pl,63,0,0
+1613307292694,63,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-8,text,true,,331,113,10,10,http://www.kodilla.com/,63,0,0
+1613307292757,77,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-8,text,true,,1395,113,10,10,https://kodilla.com:443/,77,0,0
+1613307292835,330,kodilla.com main page-2,200,OK,kodilla users 1-8,text,true,,94315,111,10,10,https://kodilla.com/pl,141,0,0
+1613307291948,1296,kodilla.com main page,200,OK,kodilla users 1-3,text,true,,96057,337,10,10,https://kodilla.com/pl,58,0,0
+1613307291948,58,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-3,text,true,,331,113,10,10,http://www.kodilla.com/,58,0,0
+1613307292006,88,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-3,text,true,,1395,113,10,10,https://kodilla.com:443/,87,0,0
+1613307292094,1150,kodilla.com main page-2,200,OK,kodilla users 1-3,text,true,,94331,111,10,10,https://kodilla.com/pl,971,0,0
+1613307291946,1315,kodilla.com main page,200,OK,kodilla users 1-1,text,true,,96049,337,10,10,https://kodilla.com/pl,59,0,0
+1613307291946,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-1,text,true,,331,113,10,10,http://www.kodilla.com/,59,0,0
+1613307292005,91,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-1,text,true,,1391,113,10,10,https://kodilla.com:443/,89,0,0
+1613307292096,1165,kodilla.com main page-2,200,OK,kodilla users 1-1,text,true,,94327,111,10,10,https://kodilla.com/pl,977,0,0
+1613307292491,1055,kodilla.com main page,200,OK,kodilla users 1-9,text,true,,96045,337,10,10,https://kodilla.com/pl,62,0,0
+1613307292491,62,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-9,text,true,,331,113,10,10,http://www.kodilla.com/,62,0,0
+1613307292553,651,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-9,text,true,,1395,113,10,10,https://kodilla.com:443/,651,0,0
+1613307293205,341,kodilla.com main page-2,200,OK,kodilla users 1-9,text,true,,94319,111,10,10,https://kodilla.com/pl,155,0,0
+1613307291820,1945,kodilla.com main page,200,OK,kodilla users 1-7,text,true,,96085,337,10,10,https://kodilla.com/pl,61,0,0
+1613307291820,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-7,text,true,,331,113,10,10,http://www.kodilla.com/,61,0,0
+1613307291881,588,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-7,text,true,,1391,113,10,10,https://kodilla.com:443/,588,0,0
+1613307292469,1296,kodilla.com main page-2,200,OK,kodilla users 1-7,text,true,,94363,111,10,10,https://kodilla.com/pl,1090,0,0
+1613307292374,1481,kodilla.com main page,200,OK,kodilla users 1-10,text,true,,96061,337,10,10,https://kodilla.com/pl,61,0,0
+1613307292374,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-10,text,true,,331,113,10,10,http://www.kodilla.com/,61,0,0
+1613307292435,79,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-10,text,true,,1393,113,10,10,https://kodilla.com:443/,78,0,0
+1613307292514,1341,kodilla.com main page-2,200,OK,kodilla users 1-10,text,true,,94337,111,10,10,https://kodilla.com/pl,1174,0,0
+1613307292911,1154,kodilla.com main page,200,OK,kodilla users 1-6,text,true,,96048,337,10,10,https://kodilla.com/pl,68,0,0
+1613307292911,68,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-6,text,true,,331,113,10,10,http://www.kodilla.com/,68,0,0
+1613307292979,724,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-6,text,true,,1393,113,10,10,https://kodilla.com:443/,724,0,0
+1613307293703,362,kodilla.com main page-2,200,OK,kodilla users 1-6,text,true,,94324,111,10,10,https://kodilla.com/pl,112,0,0
+1613307292633,1473,kodilla.com main page,200,OK,kodilla users 1-4,text,true,,96061,337,10,10,https://kodilla.com/pl,63,0,0
+1613307292633,63,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-4,text,true,,331,113,10,10,http://www.kodilla.com/,63,0,0
+1613307292697,87,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-4,text,true,,1393,113,10,10,https://kodilla.com:443/,85,0,0
+1613307292784,1322,kodilla.com main page-2,200,OK,kodilla users 1-4,text,true,,94337,111,10,10,https://kodilla.com/pl,1172,0,0
+1613307293856,391,kodilla.com main page,200,OK,kodilla users 1-10,text,true,,96053,337,10,10,https://kodilla.com/pl,59,0,0
+1613307293856,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-10,text,true,,331,113,10,10,http://www.kodilla.com/,59,0,0
+1613307293915,81,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-10,text,true,,1397,113,10,10,https://kodilla.com:443/,80,0,0
+1613307293997,250,kodilla.com main page-2,200,OK,kodilla users 1-10,text,true,,94325,111,10,10,https://kodilla.com/pl,125,0,0
+1613307293082,1193,kodilla.com main page,200,OK,kodilla users 1-2,text,true,,96059,337,10,10,https://kodilla.com/pl,61,0,0
+1613307293082,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-2,text,true,,331,113,10,10,http://www.kodilla.com/,61,0,0
+1613307293143,800,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-2,text,true,,1397,113,10,10,https://kodilla.com:443/,800,0,0
+1613307293944,331,kodilla.com main page-2,200,OK,kodilla users 1-2,text,true,,94331,111,10,10,https://kodilla.com/pl,104,0,0
+1613307294067,477,kodilla.com main page,200,OK,kodilla users 1-6,text,true,,96057,337,10,10,https://kodilla.com/pl,61,0,0
+1613307294067,62,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-6,text,true,,331,113,10,10,http://www.kodilla.com/,61,0,0
+1613307294129,76,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-6,text,true,,1393,113,10,10,https://kodilla.com:443/,76,0,0
+1613307294205,339,kodilla.com main page-2,200,OK,kodilla users 1-6,text,true,,94333,111,10,10,https://kodilla.com/pl,108,0,0
+1613307293166,1433,kodilla.com main page,200,OK,kodilla users 1-8,text,true,,96067,337,10,10,https://kodilla.com/pl,59,0,0
+1613307293166,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-8,text,true,,331,113,10,10,http://www.kodilla.com/,59,0,0
+1613307293225,87,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-8,text,true,,1393,113,10,10,https://kodilla.com:443/,86,0,0
+1613307293312,1287,kodilla.com main page-2,200,OK,kodilla users 1-8,text,true,,94343,111,10,10,https://kodilla.com/pl,1135,0,0
+1613307294276,454,kodilla.com main page,200,OK,kodilla users 1-2,text,true,,96045,337,10,10,https://kodilla.com/pl,59,0,0
+1613307294276,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-2,text,true,,331,113,10,10,http://www.kodilla.com/,59,0,0
+1613307294336,76,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-2,text,true,,1393,113,10,10,https://kodilla.com:443/,76,0,0
+1613307294412,318,kodilla.com main page-2,200,OK,kodilla users 1-2,text,true,,94321,111,10,10,https://kodilla.com/pl,105,0,0
+1613307293262,1536,kodilla.com main page,200,OK,kodilla users 1-1,text,true,,96060,337,10,10,https://kodilla.com/pl,68,0,0
+1613307293262,68,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-1,text,true,,331,113,10,10,http://www.kodilla.com/,68,0,0
+1613307293330,95,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-1,text,true,,1393,113,10,10,https://kodilla.com:443/,94,0,0
+1613307293425,1373,kodilla.com main page-2,200,OK,kodilla users 1-1,text,true,,94336,111,10,10,https://kodilla.com/pl,1207,0,0
+1613307294731,421,kodilla.com main page,200,OK,kodilla users 1-2,text,true,,96071,337,10,10,https://kodilla.com/pl,60,0,0
+1613307294731,60,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-2,text,true,,331,113,10,10,http://www.kodilla.com/,60,0,0
+1613307294792,81,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-2,text,true,,1399,113,10,10,https://kodilla.com:443/,80,0,0
+1613307294873,279,kodilla.com main page-2,200,OK,kodilla users 1-2,text,true,,94341,111,10,10,https://kodilla.com/pl,106,0,0
+1613307293105,2256,kodilla.com main page,200,OK,kodilla users 1-5,text,true,,96070,337,10,10,https://kodilla.com/pl,73,0,0
+1613307293105,73,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-5,text,true,,331,113,10,10,http://www.kodilla.com/,73,0,0
+1613307293178,774,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-5,text,true,,1397,113,10,10,https://kodilla.com:443/,774,0,0
+1613307293953,1408,kodilla.com main page-2,200,OK,kodilla users 1-5,text,true,,94342,111,10,10,https://kodilla.com/pl,1227,0,0
+1613307294248,1135,kodilla.com main page,200,OK,kodilla users 1-10,text,true,,96057,337,10,10,https://kodilla.com/pl,56,0,0
+1613307294248,56,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-10,text,true,,331,113,10,10,http://www.kodilla.com/,56,0,0
+1613307294304,834,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-10,text,true,,1395,113,10,10,https://kodilla.com:443/,834,0,0
+1613307295138,245,kodilla.com main page-2,200,OK,kodilla users 1-10,text,true,,94331,111,10,10,https://kodilla.com/pl,127,0,0
+1613307293245,2344,kodilla.com main page,200,OK,kodilla users 1-3,text,true,,96051,337,10,10,https://kodilla.com/pl,61,0,0
+1613307293245,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-3,text,true,,331,113,10,10,http://www.kodilla.com/,61,0,0
+1613307293306,785,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-3,text,true,,1393,113,10,10,https://kodilla.com:443/,784,0,0
+1613307294091,1498,kodilla.com main page-2,200,OK,kodilla users 1-3,text,true,,94327,111,10,10,https://kodilla.com/pl,1316,0,0
+1613307293548,2334,kodilla.com main page,200,OK,kodilla users 1-9,text,true,,96057,337,10,10,https://kodilla.com/pl,59,0,0
+1613307293548,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-9,text,true,,331,113,10,10,http://www.kodilla.com/,59,0,0
+1613307293607,694,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-9,text,true,,1399,113,10,10,https://kodilla.com:443/,694,0,0
+1613307294301,1581,kodilla.com main page-2,200,OK,kodilla users 1-9,text,true,,94327,111,10,10,https://kodilla.com/pl,1393,0,0
+1613307294111,1824,kodilla.com main page,200,OK,kodilla users 1-4,text,true,,96059,337,10,10,https://kodilla.com/pl,68,0,0
+1613307294111,68,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-4,text,true,,331,113,10,10,http://www.kodilla.com/,68,0,0
+1613307294180,92,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-4,text,true,,1399,113,10,10,https://kodilla.com:443/,85,0,0
+1613307294273,1662,kodilla.com main page-2,200,OK,kodilla users 1-4,text,true,,94329,111,10,10,https://kodilla.com/pl,1463,0,0
+1613307295590,490,kodilla.com main page,200,OK,kodilla users 1-3,text,true,,96035,337,10,10,https://kodilla.com/pl,75,0,0
+1613307295590,76,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-3,text,true,,331,113,10,10,http://www.kodilla.com/,75,0,0
+1613307295666,90,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-3,text,true,,1391,113,10,10,https://kodilla.com:443/,90,0,0
+1613307295756,324,kodilla.com main page-2,200,OK,kodilla users 1-3,text,true,,94313,111,10,10,https://kodilla.com/pl,155,0,0
+1613307293766,2346,kodilla.com main page,200,OK,kodilla users 1-7,text,true,,96075,337,10,10,https://kodilla.com/pl,63,0,0
+1613307293766,63,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-7,text,true,,331,113,10,10,http://www.kodilla.com/,63,0,0
+1613307293829,701,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-7,text,true,,1397,113,10,10,https://kodilla.com:443/,701,0,0
+1613307294531,1581,kodilla.com main page-2,200,OK,kodilla users 1-7,text,true,,94347,111,10,10,https://kodilla.com/pl,1399,0,0
+1613307294799,1349,kodilla.com main page,200,OK,kodilla users 1-1,text,true,,96033,337,10,10,https://kodilla.com/pl,60,0,0
+1613307294799,60,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-1,text,true,,331,113,10,10,http://www.kodilla.com/,60,0,0
+1613307294859,883,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-1,text,true,,1395,113,10,10,https://kodilla.com:443/,882,0,0
+1613307295742,406,kodilla.com main page-2,200,OK,kodilla users 1-1,text,true,,94307,111,10,10,https://kodilla.com/pl,149,0,0
+1613307294545,1769,kodilla.com main page,200,OK,kodilla users 1-6,text,true,,96069,337,10,10,https://kodilla.com/pl,63,0,0
+1613307294545,63,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-6,text,true,,331,113,10,10,http://www.kodilla.com/,63,0,0
+1613307294608,88,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-6,text,true,,1391,113,10,10,https://kodilla.com:443/,88,0,0
+1613307294696,1618,kodilla.com main page-2,200,OK,kodilla users 1-6,text,true,,94347,111,10,10,https://kodilla.com/pl,1370,0,0
+1613307295361,1029,kodilla.com main page,200,OK,kodilla users 1-5,text,true,,96047,337,10,10,https://kodilla.com/pl,67,0,0
+1613307295361,67,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-5,text,true,,331,113,10,10,http://www.kodilla.com/,67,0,0
+1613307295429,703,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-5,text,true,,1393,113,10,10,https://kodilla.com:443/,703,0,0
+1613307296132,258,kodilla.com main page-2,200,OK,kodilla users 1-5,text,true,,94323,111,10,10,https://kodilla.com/pl,137,0,0
+1613307295936,469,kodilla.com main page,200,OK,kodilla users 1-4,text,true,,96055,337,10,10,https://kodilla.com/pl,80,0,0
+1613307295936,80,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-4,text,true,,331,113,10,10,http://www.kodilla.com/,80,0,0
+1613307296016,85,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-4,text,true,,1395,113,10,10,https://kodilla.com:443/,85,0,0
+1613307296101,304,kodilla.com main page-2,200,OK,kodilla users 1-4,text,true,,94329,111,10,10,https://kodilla.com/pl,125,0,0
+1613307295383,1401,kodilla.com main page,200,OK,kodilla users 1-10,text,true,,96073,337,10,10,https://kodilla.com/pl,61,0,0
+1613307295383,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-10,text,true,,331,113,10,10,http://www.kodilla.com/,61,0,0
+1613307295444,77,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-10,text,true,,1397,113,10,10,https://kodilla.com:443/,76,0,0
+1613307295521,1263,kodilla.com main page-2,200,OK,kodilla users 1-10,text,true,,94345,111,10,10,https://kodilla.com/pl,1145,0,0
+1613307294600,2224,kodilla.com main page,200,OK,kodilla users 1-8,text,true,,96071,337,10,10,https://kodilla.com/pl,61,0,0
+1613307294600,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-8,text,true,,331,113,10,10,http://www.kodilla.com/,61,0,0
+1613307294662,900,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-8,text,true,,1399,113,10,10,https://kodilla.com:443/,900,0,0
+1613307295563,1261,kodilla.com main page-2,200,OK,kodilla users 1-8,text,true,,94341,111,10,10,https://kodilla.com/pl,1136,0,0
+1613307295883,1177,kodilla.com main page,200,OK,kodilla users 1-9,text,true,,96047,337,10,10,https://kodilla.com/pl,83,0,0
+1613307295883,83,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-9,text,true,,331,113,10,10,http://www.kodilla.com/,83,0,0
+1613307295966,751,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-9,text,true,,1393,113,10,10,https://kodilla.com:443/,751,0,0
+1613307296716,343,kodilla.com main page-2,200,OK,kodilla users 1-9,text,true,,94323,111,10,10,https://kodilla.com/pl,123,0,0
+1613307296081,1137,kodilla.com main page,200,OK,kodilla users 1-3,text,true,,96039,337,10,10,https://kodilla.com/pl,66,0,0
+1613307296081,66,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-3,text,true,,331,113,10,10,http://www.kodilla.com/,66,0,0
+1613307296148,768,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-3,text,true,,1397,113,10,10,https://kodilla.com:443/,768,0,0
+1613307296915,302,kodilla.com main page-2,200,OK,kodilla users 1-3,text,true,,94311,111,10,10,https://kodilla.com/pl,131,0,0
+1613307296148,1155,kodilla.com main page,200,OK,kodilla users 1-1,text,true,,96063,337,10,10,https://kodilla.com/pl,56,0,0
+1613307296148,57,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-1,text,true,,331,113,10,10,http://www.kodilla.com/,56,0,0
+1613307296205,793,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-1,text,true,,1391,113,10,10,https://kodilla.com:443/,790,0,0
+1613307296997,305,kodilla.com main page-2,200,OK,kodilla users 1-1,text,true,,94341,111,10,10,https://kodilla.com/pl,121,0,0
+1613307295153,2226,kodilla.com main page,200,OK,kodilla users 1-2,text,true,,96064,337,10,10,https://kodilla.com/pl,49,0,0
+1613307295153,50,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-2,text,true,,331,113,10,10,http://www.kodilla.com/,49,0,0
+1613307295203,801,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-2,text,true,,1399,113,10,10,https://kodilla.com:443/,801,0,0
+1613307296004,1375,kodilla.com main page-2,200,OK,kodilla users 1-2,text,true,,94334,111,10,10,https://kodilla.com/pl,1187,0,0
+1613307296391,1084,kodilla.com main page,200,OK,kodilla users 1-5,text,true,,96045,337,10,10,https://kodilla.com/pl,61,0,0
+1613307296391,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-5,text,true,,331,113,10,10,http://www.kodilla.com/,61,0,0
+1613307296452,795,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-5,text,true,,1391,113,10,10,https://kodilla.com:443/,795,0,0
+1613307297248,227,kodilla.com main page-2,200,OK,kodilla users 1-5,text,true,,94323,111,10,10,https://kodilla.com/pl,106,0,0
+1613307296113,1557,kodilla.com main page,200,OK,kodilla users 1-7,text,true,,96065,337,10,10,https://kodilla.com/pl,60,0,0
+1613307296113,60,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-7,text,true,,331,113,10,10,http://www.kodilla.com/,60,0,0
+1613307296174,104,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-7,text,true,,1393,113,10,10,https://kodilla.com:443/,103,0,0
+1613307296278,1392,kodilla.com main page-2,200,OK,kodilla users 1-7,text,true,,94341,111,10,10,https://kodilla.com/pl,1263,0,0
+1613307296824,1041,kodilla.com main page,200,OK,kodilla users 1-8,text,true,,96043,337,10,10,https://kodilla.com/pl,60,0,0
+1613307296824,60,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-8,text,true,,331,113,10,10,http://www.kodilla.com/,60,0,0
+1613307296884,737,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-8,text,true,,1395,113,10,10,https://kodilla.com:443/,737,0,0
+1613307297622,243,kodilla.com main page-2,200,OK,kodilla users 1-8,text,true,,94317,111,10,10,https://kodilla.com/pl,119,0,0
+1613307296406,1503,kodilla.com main page,200,OK,kodilla users 1-4,text,true,,96049,337,10,10,https://kodilla.com/pl,68,0,0
+1613307296406,68,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-4,text,true,,331,113,10,10,http://www.kodilla.com/,68,0,0
+1613307296475,82,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-4,text,true,,1393,113,10,10,https://kodilla.com:443/,82,0,0
+1613307296558,1351,kodilla.com main page-2,200,OK,kodilla users 1-4,text,true,,94325,111,10,10,https://kodilla.com/pl,1164,0,0
+1613307296315,1630,kodilla.com main page,200,OK,kodilla users 1-6,text,true,,96055,337,10,10,https://kodilla.com/pl,68,0,0
+1613307296315,68,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-6,text,true,,331,113,10,10,http://www.kodilla.com/,68,0,0
+1613307296383,93,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-6,text,true,,1393,113,10,10,https://kodilla.com:443/,92,0,0
+1613307296475,1469,kodilla.com main page-2,200,OK,kodilla users 1-6,text,true,,94331,111,10,10,https://kodilla.com/pl,1212,0,0
+1613307296784,1390,kodilla.com main page,200,OK,kodilla users 1-10,text,true,,96069,337,10,10,https://kodilla.com/pl,61,0,0
+1613307296784,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-10,text,true,,331,113,10,10,http://www.kodilla.com/,61,0,0
+1613307296845,86,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-10,text,true,,1397,113,10,10,https://kodilla.com:443/,86,0,0
+1613307296932,1242,kodilla.com main page-2,200,OK,kodilla users 1-10,text,true,,94341,111,10,10,https://kodilla.com/pl,1145,0,0
+1613307297867,336,kodilla.com main page,200,OK,kodilla users 1-8,text,true,,96049,337,10,10,https://kodilla.com/pl,63,0,0
+1613307297867,63,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-8,text,true,,331,113,10,10,http://www.kodilla.com/,63,0,0
+1613307297930,92,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-8,text,true,,1393,113,10,10,https://kodilla.com:443/,92,0,0
+1613307298023,180,kodilla.com main page-2,200,OK,kodilla users 1-8,text,true,,94325,111,10,10,https://kodilla.com/pl,109,0,0
+1613307297060,1206,kodilla.com main page,200,OK,kodilla users 1-9,text,true,,96039,337,10,10,https://kodilla.com/pl,64,0,0
+1613307297060,64,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-9,text,true,,331,113,10,10,http://www.kodilla.com/,64,0,0
+1613307297124,782,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-9,text,true,,1391,113,10,10,https://kodilla.com:443/,781,0,0
+1613307297906,360,kodilla.com main page-2,200,OK,kodilla users 1-9,text,true,,94317,111,10,10,https://kodilla.com/pl,157,0,0
+1613307298175,361,kodilla.com main page,200,OK,kodilla users 1-10,text,true,,96047,337,10,10,https://kodilla.com/pl,76,0,0
+1613307298175,77,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-10,text,true,,331,113,10,10,http://www.kodilla.com/,76,0,0
+1613307298252,88,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-10,text,true,,1393,113,10,10,https://kodilla.com:443/,88,0,0
+1613307298340,196,kodilla.com main page-2,200,OK,kodilla users 1-10,text,true,,94323,111,10,10,https://kodilla.com/pl,117,0,0
+1613307297303,1733,kodilla.com main page,200,OK,kodilla users 1-1,text,true,,96067,337,10,10,https://kodilla.com/pl,59,0,0
+1613307297303,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-1,text,true,,331,113,10,10,http://www.kodilla.com/,59,0,0
+1613307297363,77,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-1,text,true,,1393,113,10,10,https://kodilla.com:443/,77,0,0
+1613307297440,1596,kodilla.com main page-2,200,OK,kodilla users 1-1,text,true,,94343,111,10,10,https://kodilla.com/pl,1385,0,0
+1613307297379,1698,kodilla.com main page,200,OK,kodilla users 1-2,text,true,,96073,337,10,10,https://kodilla.com/pl,56,0,0
+1613307297379,56,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-2,text,true,,331,113,10,10,http://www.kodilla.com/,56,0,0
+1613307297436,76,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-2,text,true,,1395,113,10,10,https://kodilla.com:443/,76,0,0
+1613307297513,1564,kodilla.com main page-2,200,OK,kodilla users 1-2,text,true,,94347,111,10,10,https://kodilla.com/pl,1318,0,0
+1613307297910,1208,kodilla.com main page,200,OK,kodilla users 1-4,text,true,,96045,337,10,10,https://kodilla.com/pl,71,0,0
+1613307297910,72,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-4,text,true,,331,113,10,10,http://www.kodilla.com/,71,0,0
+1613307297982,857,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-4,text,true,,1393,113,10,10,https://kodilla.com:443/,857,0,0
+1613307298839,279,kodilla.com main page-2,200,OK,kodilla users 1-4,text,true,,94321,111,10,10,https://kodilla.com/pl,113,0,0
+1613307297946,1318,kodilla.com main page,200,OK,kodilla users 1-6,text,true,,96043,337,10,10,https://kodilla.com/pl,62,0,0
+1613307297946,62,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-6,text,true,,331,113,10,10,http://www.kodilla.com/,62,0,0
+1613307298009,904,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-6,text,true,,1391,113,10,10,https://kodilla.com:443/,904,0,0
+1613307298913,351,kodilla.com main page-2,200,OK,kodilla users 1-6,text,true,,94321,111,10,10,https://kodilla.com/pl,121,0,0
+1613307297217,2336,kodilla.com main page,200,OK,kodilla users 1-3,text,true,,96051,337,10,10,https://kodilla.com/pl,59,0,0
+1613307297217,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-3,text,true,,331,113,10,10,http://www.kodilla.com/,59,0,0
+1613307297276,760,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-3,text,true,,1393,113,10,10,https://kodilla.com:443/,759,0,0
+1613307298036,1517,kodilla.com main page-2,200,OK,kodilla users 1-3,text,true,,94327,111,10,10,https://kodilla.com/pl,1313,0,0
+1613307299265,489,kodilla.com main page,200,OK,kodilla users 1-6,text,true,,96041,337,10,10,https://kodilla.com/pl,64,0,0
+1613307299265,64,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-6,text,true,,331,113,10,10,http://www.kodilla.com/,64,0,0
+1613307299329,74,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-6,text,true,,1391,113,10,10,https://kodilla.com:443/,74,0,0
+1613307299404,350,kodilla.com main page-2,200,OK,kodilla users 1-6,text,true,,94319,111,10,10,https://kodilla.com/pl,112,0,0
+1613307298203,1606,kodilla.com main page,200,OK,kodilla users 1-8,text,true,,96049,337,10,10,https://kodilla.com/pl,61,0,0
+1613307298203,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-8,text,true,,331,113,10,10,http://www.kodilla.com/,61,0,0
+1613307298264,83,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-8,text,true,,1391,113,10,10,https://kodilla.com:443/,83,0,0
+1613307298348,1461,kodilla.com main page-2,200,OK,kodilla users 1-8,text,true,,94327,111,10,10,https://kodilla.com/pl,1322,0,0
+1613307297476,2375,kodilla.com main page,200,OK,kodilla users 1-5,text,true,,96061,337,10,10,https://kodilla.com/pl,52,0,0
+1613307297476,52,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-5,text,true,,331,113,10,10,http://www.kodilla.com/,52,0,0
+1613307297528,807,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-5,text,true,,1399,113,10,10,https://kodilla.com:443/,807,0,0
+1613307298336,1515,kodilla.com main page-2,200,OK,kodilla users 1-5,text,true,,94331,111,10,10,https://kodilla.com/pl,1392,0,0
+1613307298267,1715,kodilla.com main page,200,OK,kodilla users 1-9,text,true,,96063,337,10,10,https://kodilla.com/pl,65,0,0
+1613307298267,65,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-9,text,true,,331,113,10,10,http://www.kodilla.com/,65,0,0
+1613307298333,86,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-9,text,true,,1393,113,10,10,https://kodilla.com:443/,85,0,0
+1613307298419,1563,kodilla.com main page-2,200,OK,kodilla users 1-9,text,true,,94339,111,10,10,https://kodilla.com/pl,1381,0,0
+1613307297669,2363,kodilla.com main page,200,OK,kodilla users 1-7,text,true,,96073,337,10,10,https://kodilla.com/pl,80,0,0
+1613307297669,80,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-7,text,true,,331,113,10,10,http://www.kodilla.com/,80,0,0
+1613307297750,850,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-7,text,true,,1393,113,10,10,https://kodilla.com:443/,850,0,0
+1613307298600,1432,kodilla.com main page-2,200,OK,kodilla users 1-7,text,true,,94349,111,10,10,https://kodilla.com/pl,1257,0,0
+1613307299078,1511,kodilla.com main page,200,OK,kodilla users 1-2,text,true,,96049,337,10,10,https://kodilla.com/pl,58,0,0
+1613307299078,58,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-2,text,true,,331,113,10,10,http://www.kodilla.com/,58,0,0
+1613307299136,770,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-2,text,true,,1393,113,10,10,https://kodilla.com:443/,770,0,0
+1613307299907,682,kodilla.com main page-2,200,OK,kodilla users 1-2,text,true,,94325,111,10,10,https://kodilla.com/pl,462,0,0
+1613307300039,558,kodilla.com main page,200,OK,kodilla users 1-7,text,true,,96037,337,10,10,https://kodilla.com/pl,71,0,0
+1613307300039,71,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-7,text,true,,331,113,10,10,http://www.kodilla.com/,71,0,0
+1613307300110,79,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-7,text,true,,1393,113,10,10,https://kodilla.com:443/,78,0,0
+1613307300189,408,kodilla.com main page-2,200,OK,kodilla users 1-7,text,true,,94313,111,10,10,https://kodilla.com/pl,191,0,0
+1613307298537,2092,kodilla.com main page,200,OK,kodilla users 1-10,text,true,,96051,337,10,10,https://kodilla.com/pl,66,0,0
+1613307298537,66,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-10,text,true,,331,113,10,10,http://www.kodilla.com/,66,0,0
+1613307298604,836,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-10,text,true,,1391,113,10,10,https://kodilla.com:443/,836,0,0
+1613307299441,1188,kodilla.com main page-2,200,OK,kodilla users 1-10,text,true,,94329,111,10,10,https://kodilla.com/pl,1114,0,0
+1613307299118,1537,kodilla.com main page,200,OK,kodilla users 1-4,text,true,,96059,337,9,9,https://kodilla.com/pl,61,0,0
+1613307299118,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-4,text,true,,331,113,9,9,http://www.kodilla.com/,61,0,0
+1613307299179,82,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-4,text,true,,1395,113,9,9,https://kodilla.com:443/,81,0,0
+1613307299262,1393,kodilla.com main page-2,200,OK,kodilla users 1-4,text,true,,94333,111,9,9,https://kodilla.com/pl,1218,0,0
+1613307299756,1152,kodilla.com main page,200,OK,kodilla users 1-6,text,true,,96037,337,9,9,https://kodilla.com/pl,67,0,0
+1613307299756,67,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-6,text,true,,331,113,9,9,http://www.kodilla.com/,67,0,0
+1613307299823,772,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-6,text,true,,1391,113,9,9,https://kodilla.com:443/,772,0,0
+1613307300596,312,kodilla.com main page-2,200,OK,kodilla users 1-6,text,true,,94315,111,9,9,https://kodilla.com/pl,138,0,0
+1613307300656,428,kodilla.com main page,200,OK,kodilla users 1-4,text,true,,96059,337,8,8,https://kodilla.com/pl,62,0,0
+1613307300656,62,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-4,text,true,,331,113,8,8,http://www.kodilla.com/,62,0,0
+1613307300718,92,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-4,text,true,,1391,113,8,8,https://kodilla.com:443/,91,0,0
+1613307300810,274,kodilla.com main page-2,200,OK,kodilla users 1-4,text,true,,94337,111,8,8,https://kodilla.com/pl,136,0,0
+1613307299811,1389,kodilla.com main page,200,OK,kodilla users 1-8,text,true,,96063,337,7,7,https://kodilla.com/pl,60,0,0
+1613307299811,60,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-8,text,true,,331,113,7,7,http://www.kodilla.com/,60,0,0
+1613307299871,83,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-8,text,true,,1395,113,7,7,https://kodilla.com:443/,83,0,0
+1613307299955,1245,kodilla.com main page-2,200,OK,kodilla users 1-8,text,true,,94337,111,7,7,https://kodilla.com/pl,1038,0,0
+1613307299852,1357,kodilla.com main page,200,OK,kodilla users 1-5,text,true,,96057,337,6,6,https://kodilla.com/pl,73,0,0
+1613307299852,73,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-5,text,true,,331,113,6,6,http://www.kodilla.com/,73,0,0
+1613307299926,100,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-5,text,true,,1393,113,6,6,https://kodilla.com:443/,99,0,0
+1613307300026,1183,kodilla.com main page-2,200,OK,kodilla users 1-5,text,true,,94333,111,6,6,https://kodilla.com/pl,1024,0,0
+1613307299037,2180,kodilla.com main page,200,OK,kodilla users 1-1,text,true,,96063,337,6,6,https://kodilla.com/pl,59,0,0
+1613307299037,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-1,text,true,,331,113,6,6,http://www.kodilla.com/,59,0,0
+1613307299096,778,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-1,text,true,,1397,113,6,6,https://kodilla.com:443/,778,0,0
+1613307299874,1343,kodilla.com main page-2,200,OK,kodilla users 1-1,text,true,,94335,111,6,6,https://kodilla.com/pl,1097,0,0
+1613307299983,1386,kodilla.com main page,200,OK,kodilla users 1-9,text,true,,96063,337,6,6,https://kodilla.com/pl,63,0,0
+1613307299983,63,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-9,text,true,,331,113,6,6,http://www.kodilla.com/,63,0,0
+1613307300047,84,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-9,text,true,,1395,113,6,6,https://kodilla.com:443/,84,0,0
+1613307300131,1238,kodilla.com main page-2,200,OK,kodilla users 1-9,text,true,,94337,111,6,6,https://kodilla.com/pl,1010,0,0
+1613307299555,1892,kodilla.com main page,200,OK,kodilla users 1-3,text,true,,96078,337,6,6,https://kodilla.com/pl,62,0,0
+1613307299555,62,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-3,text,true,,331,113,6,6,http://www.kodilla.com/,62,0,0
+1613307299618,679,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-3,text,true,,1393,113,6,6,https://kodilla.com:443/,679,0,0
+1613307300297,1150,kodilla.com main page-2,200,OK,kodilla users 1-3,text,true,,94354,111,6,6,https://kodilla.com/pl,920,0,0
+1613307300590,981,kodilla.com main page,200,OK,kodilla users 1-2,text,true,,96056,337,6,6,https://kodilla.com/pl,84,0,0
+1613307300590,85,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-2,text,true,,331,113,6,6,http://www.kodilla.com/,84,0,0
+1613307300675,91,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-2,text,true,,1395,113,6,6,https://kodilla.com:443/,91,0,0
+1613307300766,805,kodilla.com main page-2,200,OK,kodilla users 1-2,text,true,,94330,111,6,6,https://kodilla.com/pl,639,0,0
+1613307301370,518,kodilla.com main page,200,OK,kodilla users 1-9,text,true,,96041,337,5,5,https://kodilla.com/pl,67,0,0
+1613307301370,67,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-9,text,true,,331,113,5,5,http://www.kodilla.com/,67,0,0
+1613307301438,111,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-9,text,true,,1395,113,5,5,https://kodilla.com:443/,110,0,0
+1613307301549,339,kodilla.com main page-2,200,OK,kodilla users 1-9,text,true,,94315,111,5,5,https://kodilla.com/pl,160,0,0
+1613307300598,1328,kodilla.com main page,200,OK,kodilla users 1-7,text,true,,96073,337,5,5,https://kodilla.com/pl,76,0,0
+1613307300598,77,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-7,text,true,,331,113,5,5,http://www.kodilla.com/,76,0,0
+1613307300675,549,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-7,text,true,,1393,113,5,5,https://kodilla.com:443/,549,0,0
+1613307301224,702,kodilla.com main page-2,200,OK,kodilla users 1-7,text,true,,94349,111,5,5,https://kodilla.com/pl,525,0,0
+1613307301210,836,kodilla.com main page,200,OK,kodilla users 1-5,text,true,,96061,337,5,5,https://kodilla.com/pl,63,0,0
+1613307301210,63,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-5,text,true,,331,113,5,5,http://www.kodilla.com/,63,0,0
+1613307301273,123,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-5,text,true,,1391,113,5,5,https://kodilla.com:443/,122,0,0
+1613307301396,650,kodilla.com main page-2,200,OK,kodilla users 1-5,text,true,,94339,111,5,5,https://kodilla.com/pl,522,0,0
+1613307301219,902,kodilla.com main page,200,OK,kodilla users 1-1,text,true,,96055,337,5,5,https://kodilla.com/pl,65,0,0
+1613307301219,65,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-1,text,true,,331,113,5,5,http://www.kodilla.com/,65,0,0
+1613307301285,376,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-1,text,true,,1393,113,5,5,https://kodilla.com:443/,376,0,0
+1613307301661,460,kodilla.com main page-2,200,OK,kodilla users 1-1,text,true,,94331,111,5,5,https://kodilla.com/pl,270,0,0
+1613307301448,872,kodilla.com main page,200,OK,kodilla users 1-3,text,true,,96059,337,5,5,https://kodilla.com/pl,61,0,0
+1613307301448,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-3,text,true,,331,113,5,5,http://www.kodilla.com/,61,0,0
+1613307301509,355,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-3,text,true,,1393,113,5,5,https://kodilla.com:443/,355,0,0
+1613307301865,455,kodilla.com main page-2,200,OK,kodilla users 1-3,text,true,,94335,111,5,5,https://kodilla.com/pl,268,0,0
+1613307301889,547,kodilla.com main page,200,OK,kodilla users 1-9,text,true,,96048,337,4,4,https://kodilla.com/pl,62,0,0
+1613307301889,62,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-9,text,true,,331,113,4,4,http://www.kodilla.com/,62,0,0
+1613307301951,112,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-9,text,true,,1399,113,4,4,https://kodilla.com:443/,111,0,0
+1613307302063,373,kodilla.com main page-2,200,OK,kodilla users 1-9,text,true,,94318,111,4,4,https://kodilla.com/pl,206,0,0
+1613307302048,490,kodilla.com main page,200,OK,kodilla users 1-5,text,true,,96035,337,3,3,https://kodilla.com/pl,60,0,0
+1613307302048,60,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-5,text,true,,331,113,3,3,http://www.kodilla.com/,60,0,0
+1613307302109,187,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-5,text,true,,1391,113,3,3,https://kodilla.com:443/,187,0,0
+1613307302296,242,kodilla.com main page-2,200,OK,kodilla users 1-5,text,true,,94313,111,3,3,https://kodilla.com/pl,121,0,0
+1613307301927,744,kodilla.com main page,200,OK,kodilla users 1-7,text,true,,96064,337,2,2,https://kodilla.com/pl,67,0,0
+1613307301927,67,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-7,text,true,,331,113,2,2,http://www.kodilla.com/,67,0,0
+1613307301995,190,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-7,text,true,,1395,113,2,2,https://kodilla.com:443/,189,0,0
+1613307302185,486,kodilla.com main page-2,200,OK,kodilla users 1-7,text,true,,94338,111,2,2,https://kodilla.com/pl,327,0,0
+1613307302122,618,kodilla.com main page,200,OK,kodilla users 1-1,text,true,,96063,337,2,2,https://kodilla.com/pl,61,0,0
+1613307302122,61,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-1,text,true,,331,113,2,2,http://www.kodilla.com/,61,0,0
+1613307302183,260,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-1,text,true,,1391,113,2,2,https://kodilla.com:443/,259,0,0
+1613307302443,297,kodilla.com main page-2,200,OK,kodilla users 1-1,text,true,,94341,111,2,2,https://kodilla.com/pl,122,0,0
+1613307302672,567,kodilla.com main page,200,OK,kodilla users 1-7,text,true,,96066,337,1,1,https://kodilla.com/pl,59,0,0
+1613307302672,59,kodilla.com main page-0,301,Moved Permanently,kodilla users 1-7,text,true,,331,113,1,1,http://www.kodilla.com/,59,0,0
+1613307302732,143,kodilla.com main page-1,301,Moved Permanently,kodilla users 1-7,text,true,,1395,113,1,1,https://kodilla.com:443/,143,0,0
+1613307302875,364,kodilla.com main page-2,200,OK,kodilla users 1-7,text,true,,94340,111,1,1,https://kodilla.com/pl,227,0,0
