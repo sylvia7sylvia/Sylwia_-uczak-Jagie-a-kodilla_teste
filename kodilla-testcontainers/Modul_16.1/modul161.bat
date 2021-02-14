@@ -1,10 +1,10 @@
-del D:\REPOZYTORIA GIT\KODILLA\build\libs*.jar
+del \build\libs*.jar
 call gradlew build
-IF EXIST D:\REPOZYTORIA GIT\KODILLA\build\libs*.jar goto copyFile
+IF EXIST \build\libs*.jar goto copyFile
 goto errorMessage
 
 :copyFile
-copy D:\REPOZYTORIA GIT\KODILLA\build\libs*.jar c:\project
+copy \build\libs*.jar c:\project
 goto end
 
 :errorMessage
