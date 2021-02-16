@@ -19,8 +19,8 @@ import java.io.IOException;
 import static org.junit.Assert.assertEquals;
 import static org.testcontainers.containers.BrowserWebDriverContainer.VncRecordingMode.RECORD_ALL;
 
-public class ApplicationTest {
 
+public class ApplicationTest {
     @Rule
     public Network network = Network.newNetwork();
 
@@ -34,24 +34,17 @@ public class ApplicationTest {
                                             .from("httpd:2.4")
                                             .copy("/tmp/sylwia.html", "/usr/local/apache2/htdocs")
                                             .build()))
-                                            .withNetwork(network)
-                                            .withNetworkAliases("my-server")
-                                            .withExposedPorts(80);
+                    .withNetwork(network)
+                    .withNetworkAliases("my-server")
+                    .withExposedPorts(80);
 
-    @Rule     //nagrywanie testu w Chrome
+    @Rule
     public BrowserWebDriverContainer chrome =
             new BrowserWebDriverContainer<>()
                     .withNetwork(network)
                     .withCapabilities(new ChromeOptions())
                     .withRecordingMode(RECORD_ALL, new File("./build/"))
                     .withRecordingFileFactory(new DefaultRecordingFileFactory());
-
-//    @Rule      <-- nagrywanie w Firefox
-//    public BrowserWebDriverContainer firefox =
-//            new BrowserWebDriverContainer()
-//                    .withCapabilities(new FirefoxOptions())
-//                    .withRecordingMode(RECORD_ALL, new File("./build/"))
-//                    .withRecordingFileFactory(new DefaultRecordingFileFactory());
 
     @Test
     public void customImageTest() throws InterruptedException, IOException {
@@ -62,6 +55,6 @@ public class ApplicationTest {
         FileUtils.copyFile(screenshot, new File("./build/screenshots/" + screenshot.getName()));
 
         String title = driver.findElement(By.id("title")).getText();
-        assertEquals("My dockerized web page.", title);
+        assertEquals("Sylwia Łuczak-Jagieła - Tester Automatyzujący", title);
     }
 }
